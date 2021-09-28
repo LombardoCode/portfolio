@@ -1,3 +1,6 @@
+
+import i18n from './config/i18n';
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -39,6 +42,8 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    // https://i18n.nuxtjs.org/
+    '@nuxtjs/i18n',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -49,6 +54,27 @@ export default {
     manifest: {
       lang: 'en'
     }
+  },
+
+  // https://i18n.nuxtjs.org/
+  i18n: {
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_redirected',
+      redirectOn: 'root',  // recommended
+    },
+    defaultLocale: 'es',
+    locales: [
+      {
+         code: 'es',
+         name: 'Español'
+      },
+      {
+        code: 'en',
+        name: 'English'
+      }
+    ],
+    vueI18n: i18n
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
