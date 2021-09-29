@@ -1,5 +1,8 @@
 <template>
-  <Tutorial/>
+  <div>
+    <Navbar :fixed="true"/>
+    <Tutorial />
+  </div>
 </template>
 
 <script>
