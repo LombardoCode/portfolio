@@ -1,12 +1,12 @@
 <template>
-  <div class="bg-black" :class="{'fixed w-full': fixed}">
+  <div class="bg-black select-none" :class="{'fixed w-full': fixed_navbar}">
     <div class="container mx-auto">
       <div class="flex justify-between items-center text-white py-3">
         <span>Logo</span>
         <nav>
           <ul class="flex items-center">
             <NavbarItem location="index" text="Inicio"/>
-            <NavbarItem location="proyectos" text="Proyectos"/>
+            <NavbarItem location="projects" text="Proyectos"/>
             <NavbarItem location="cv" text="CV"/>
             <NavbarLanguageSelector/>
           </ul>
@@ -19,7 +19,7 @@
 <script>
 export default {
   props: {
-    fixed: Boolean
+    fixed_navbar: Boolean
   }
 }
 </script>
