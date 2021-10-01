@@ -78,6 +78,13 @@ export default {
     vueI18n: i18n
   },
 
+  tailwindcss: {
+    cssPath: '~/assets/css/tailwind.css',
+    configPath: 'tailwind.config.js',
+    exposeConfig: false,
+    config: {}
+  },
+
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }

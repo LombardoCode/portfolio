@@ -1,4 +1,33 @@
 {
-  "welcome": "Bienvenido",
-  "message": "Este mensaje está escrito en español."
+  "navbar": {
+    "home": "Inicio",
+    "proyects": "Proyectos",
+    "language": "Idioma"
+  },
+  "pages": {
+    "index": {
+      "welcome": "Bienvenido",
+      "message": "Este mensaje está escrito en español."
+    },
+    "projects": {
+      "title": "Proyectos personales",
+      "projects_section": {
+        "devsoverflow": {
+          "body": "Este es el cuerpo del proyecto de DevsOverflow."
+        },
+        "shortify": {
+          "body": "Este es el cuerpo del proyecto de shortify."
+        },
+        "openchat": {
+          "body": "Este es el cuerpo del proyecto de openchat."
+        },
+        "dilombardo": {
+          "body": "Este es el cuerpo del proyecto de dilombardo."
+        },
+        "colorless": {
+          "body": "Este es el cuerpo del proyecto de colorless."
+        }
+      }
+    }
+  }
 }

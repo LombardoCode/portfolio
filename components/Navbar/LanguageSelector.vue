@@ -5,7 +5,7 @@
   >
     <div class="flex justify-center items-center relative">
       <i class="fas fa-globe text-lg mr-3"></i>
-      <span>Idioma</span>
+      <span>{{ $t(lang_attr) }}</span>
       <div id="languages-dropdown" class="absolute" v-show="dropdown.languages">
         <div
           v-for="lang in $i18n.locales"
@@ -30,6 +30,9 @@
 
 <script>
 export default {
+  props: {
+    lang_attr: String
+  },
   data() {
     return {
       dropdown: {

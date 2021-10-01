@@ -1,14 +1,14 @@
 <template>
-  <div class="bg-black select-none" :class="{'fixed w-full': fixed_navbar}">
+  <div class="select-none" :class="{'fixed w-full': fixed_navbar}">
     <div class="container mx-auto">
       <div class="flex justify-between items-center text-white py-3">
         <span>Logo</span>
         <nav>
           <ul class="flex items-center">
-            <NavbarItem location="index" text="Inicio"/>
-            <NavbarItem location="projects" text="Proyectos"/>
+            <NavbarItem location="index" lang_attr="navbar.home"/>
+            <NavbarItem location="projects" lang_attr="navbar.proyects"/>
             <NavbarItem location="cv" text="CV"/>
-            <NavbarLanguageSelector/>
+            <NavbarLanguageSelector lang_attr="navbar.language"/>
           </ul>
         </nav>
       </div>

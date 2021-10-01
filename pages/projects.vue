@@ -1,25 +1,54 @@
 <template>
-  <div>
+  <div class="bg-gradient-to-t from-purple-600 to-purple-900 text-white">
     <Navbar :fixed_navbar="true"/>
     <ReusableContainer :top_spacing="true">
-      <h1>Primer H1</h1>
-      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus placeat quisquam omnis. Aspernatur repellat earum facere sapiente, libero praesentium dicta odit in unde doloremque repellendus modi quo ratione at consectetur? Laborum est non repellendus, eveniet explicabo ipsa illo necessitatibus quae tempore vel cupiditate doloremque, iure saepe, voluptatum dolore veritatis totam neque corporis repudiandae distinctio. Inventore libero beatae quos tempora aspernatur!</h1>
-      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus placeat quisquam omnis. Aspernatur repellat earum facere sapiente, libero praesentium dicta odit in unde doloremque repellendus modi quo ratione at consectetur? Laborum est non repellendus, eveniet explicabo ipsa illo necessitatibus quae tempore vel cupiditate doloremque, iure saepe, voluptatum dolore veritatis totam neque corporis repudiandae distinctio. Inventore libero beatae quos tempora aspernatur!</h1>
-      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus placeat quisquam omnis. Aspernatur repellat earum facere sapiente, libero praesentium dicta odit in unde doloremque repellendus modi quo ratione at consectetur? Laborum est non repellendus, eveniet explicabo ipsa illo necessitatibus quae tempore vel cupiditate doloremque, iure saepe, voluptatum dolore veritatis totam neque corporis repudiandae distinctio. Inventore libero beatae quos tempora aspernatur!</h1>
-      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus placeat quisquam omnis. Aspernatur repellat earum facere sapiente, libero praesentium dicta odit in unde doloremque repellendus modi quo ratione at consectetur? Laborum est non repellendus, eveniet explicabo ipsa illo necessitatibus quae tempore vel cupiditate doloremque, iure saepe, voluptatum dolore veritatis totam neque corporis repudiandae distinctio. Inventore libero beatae quos tempora aspernatur!</h1>
-      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus placeat quisquam omnis. Aspernatur repellat earum facere sapiente, libero praesentium dicta odit in unde doloremque repellendus modi quo ratione at consectetur? Laborum est non repellendus, eveniet explicabo ipsa illo necessitatibus quae tempore vel cupiditate doloremque, iure saepe, voluptatum dolore veritatis totam neque corporis repudiandae distinctio. Inventore libero beatae quos tempora aspernatur!</h1>
-      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus placeat quisquam omnis. Aspernatur repellat earum facere sapiente, libero praesentium dicta odit in unde doloremque repellendus modi quo ratione at consectetur? Laborum est non repellendus, eveniet explicabo ipsa illo necessitatibus quae tempore vel cupiditate doloremque, iure saepe, voluptatum dolore veritatis totam neque corporis repudiandae distinctio. Inventore libero beatae quos tempora aspernatur!</h1>
-      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus placeat quisquam omnis. Aspernatur repellat earum facere sapiente, libero praesentium dicta odit in unde doloremque repellendus modi quo ratione at consectetur? Laborum est non repellendus, eveniet explicabo ipsa illo necessitatibus quae tempore vel cupiditate doloremque, iure saepe, voluptatum dolore veritatis totam neque corporis repudiandae distinctio. Inventore libero beatae quos tempora aspernatur!</h1>
-      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus placeat quisquam omnis. Aspernatur repellat earum facere sapiente, libero praesentium dicta odit in unde doloremque repellendus modi quo ratione at consectetur? Laborum est non repellendus, eveniet explicabo ipsa illo necessitatibus quae tempore vel cupiditate doloremque, iure saepe, voluptatum dolore veritatis totam neque corporis repudiandae distinctio. Inventore libero beatae quos tempora aspernatur!</h1>
-      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus placeat quisquam omnis. Aspernatur repellat earum facere sapiente, libero praesentium dicta odit in unde doloremque repellendus modi quo ratione at consectetur? Laborum est non repellendus, eveniet explicabo ipsa illo necessitatibus quae tempore vel cupiditate doloremque, iure saepe, voluptatum dolore veritatis totam neque corporis repudiandae distinctio. Inventore libero beatae quos tempora aspernatur!</h1>
-      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus placeat quisquam omnis. Aspernatur repellat earum facere sapiente, libero praesentium dicta odit in unde doloremque repellendus modi quo ratione at consectetur? Laborum est non repellendus, eveniet explicabo ipsa illo necessitatibus quae tempore vel cupiditate doloremque, iure saepe, voluptatum dolore veritatis totam neque corporis repudiandae distinctio. Inventore libero beatae quos tempora aspernatur!</h1>
-      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus placeat quisquam omnis. Aspernatur repellat earum facere sapiente, libero praesentium dicta odit in unde doloremque repellendus modi quo ratione at consectetur? Laborum est non repellendus, eveniet explicabo ipsa illo necessitatibus quae tempore vel cupiditate doloremque, iure saepe, voluptatum dolore veritatis totam neque corporis repudiandae distinctio. Inventore libero beatae quos tempora aspernatur!</h1>
-      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus placeat quisquam omnis. Aspernatur repellat earum facere sapiente, libero praesentium dicta odit in unde doloremque repellendus modi quo ratione at consectetur? Laborum est non repellendus, eveniet explicabo ipsa illo necessitatibus quae tempore vel cupiditate doloremque, iure saepe, voluptatum dolore veritatis totam neque corporis repudiandae distinctio. Inventore libero beatae quos tempora aspernatur!</h1>
-      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus placeat quisquam omnis. Aspernatur repellat earum facere sapiente, libero praesentium dicta odit in unde doloremque repellendus modi quo ratione at consectetur? Laborum est non repellendus, eveniet explicabo ipsa illo necessitatibus quae tempore vel cupiditate doloremque, iure saepe, voluptatum dolore veritatis totam neque corporis repudiandae distinctio. Inventore libero beatae quos tempora aspernatur!</h1>
-      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus placeat quisquam omnis. Aspernatur repellat earum facere sapiente, libero praesentium dicta odit in unde doloremque repellendus modi quo ratione at consectetur? Laborum est non repellendus, eveniet explicabo ipsa illo necessitatibus quae tempore vel cupiditate doloremque, iure saepe, voluptatum dolore veritatis totam neque corporis repudiandae distinctio. Inventore libero beatae quos tempora aspernatur!</h1>
-      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus placeat quisquam omnis. Aspernatur repellat earum facere sapiente, libero praesentium dicta odit in unde doloremque repellendus modi quo ratione at consectetur? Laborum est non repellendus, eveniet explicabo ipsa illo necessitatibus quae tempore vel cupiditate doloremque, iure saepe, voluptatum dolore veritatis totam neque corporis repudiandae distinctio. Inventore libero beatae quos tempora aspernatur!</h1>
-      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus placeat quisquam omnis. Aspernatur repellat earum facere sapiente, libero praesentium dicta odit in unde doloremque repellendus modi quo ratione at consectetur? Laborum est non repellendus, eveniet explicabo ipsa illo necessitatibus quae tempore vel cupiditate doloremque, iure saepe, voluptatum dolore veritatis totam neque corporis repudiandae distinctio. Inventore libero beatae quos tempora aspernatur!</h1>
-      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus placeat quisquam omnis. Aspernatur repellat earum facere sapiente, libero praesentium dicta odit in unde doloremque repellendus modi quo ratione at consectetur? Laborum est non repellendus, eveniet explicabo ipsa illo necessitatibus quae tempore vel cupiditate doloremque, iure saepe, voluptatum dolore veritatis totam neque corporis repudiandae distinctio. Inventore libero beatae quos tempora aspernatur!</h1>
+      <h1 class="oswald text-center text-5xl font-medium uppercase mb-10">{{ $t('pages.projects.title') }}</h1>
+      <div id="projects">
+        <ReusableProject
+          :flipped="false"
+          title="DevsOverflow"
+          body="pages.projects.projects_section.devsoverflow.body"
+          url="https://www.vuejs.com/"
+          cover="projects/devsoverflow/cover.jpg"
+        >
+        </ReusableProject>
+
+        <ReusableProject
+          :flipped="true"
+          title="shortify"
+          body="pages.projects.projects_section.shortify.body"
+          url="https://www.vuejs.com/"
+          cover="projects/shortify/cover.jpg"
+        >
+        </ReusableProject>
+
+        <ReusableProject
+          :flipped="false"
+          title="OpenChat"
+          body="pages.projects.projects_section.openchat.body"
+          url="https://www.vuejs.com/"
+          cover="projects/openchat/cover.jpg"
+        >
+        </ReusableProject>
+
+        <ReusableProject
+          :flipped="true"
+          title="DiLombardo"
+          body="pages.projects.projects_section.dilombardo.body"
+          url="https://www.vuejs.com/"
+          cover="projects/dilombardo/cover.jpg"
+        >
+        </ReusableProject>
+
+        <ReusableProject
+          :flipped="false"
+          title="Colorless"
+          body="pages.projects.projects_section.colorless.body"
+          url="https://www.vuejs.com/"
+          cover="projects/colorless/cover.jpg"
+        >
+        </ReusableProject>
+      </div>
     </ReusableContainer>
   </div>
 </template>
@@ -36,6 +65,28 @@ export default {
 }
 </script>
 
-<style>
+<style lang="sass" scoped>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap')
+  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400&display=swap')
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap')
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap')
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Rubik:wght@400;500&display=swap')
+
+  $poppins: 'Poppins', 'Arial', 'sans-serif'
+  $nunito: 'Nunito Sans', 'Arial', 'sans-serif'
+  $oswald: 'Oswald', 'Arial', 'sans-serif'
+  $roboto_condensed: 'Roboto Condensed', 'Arial', 'sans-serif'
+  $rubik: 'Rubik', 'Arial', 'sans-serif'
+
+  .poppins
+    font-family: $poppins
+  .nunito
+    font-family: $nunito
+  .oswald
+    font-family: $oswald
+  .roboto-cond
+    font-family: $roboto_condensed
+  .rubik
+    font-family: $rubik
 
 </style>

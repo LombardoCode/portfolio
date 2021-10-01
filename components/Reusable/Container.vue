@@ -1,6 +1,6 @@
 <template>
   <div
-    :class="{'pt-24': top_spacing}"
+    :class="{'pt-28': top_spacing}"
     class="container mx-auto"
   >
     <slot></slot>
