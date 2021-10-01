@@ -8,8 +8,20 @@
           :flipped="false"
           title="DevsOverflow"
           body="pages.projects.projects_section.devsoverflow.body"
-          url="https://www.vuejs.com/"
           cover="projects/devsoverflow/cover.jpg"
+          :urls="{
+            0: {
+              type: 'website',
+              site: 'https://www.vuejs.org/',
+              text: 'Website'
+            },
+            1: {
+              type: 'github',
+              site: 'https://www.github.com/',
+              text: 'Github'
+            }
+          }"
+          :technologies="['Vue.js', 'React.js', 'Angular.js']"
         >
         </ReusableProject>
 
@@ -17,8 +29,20 @@
           :flipped="true"
           title="shortify"
           body="pages.projects.projects_section.shortify.body"
-          url="https://www.vuejs.com/"
           cover="projects/shortify/cover.jpg"
+          :urls="{
+            0: {
+              type: 'website',
+              site: 'https://www.vuejs.org/',
+              text: 'Website'
+            },
+            1: {
+              type: 'github',
+              site: 'https://www.github.com/',
+              text: 'Github'
+            }
+          }"
+          :technologies="['Vue.js', 'React.js', 'Angular.js']"
         >
         </ReusableProject>
 
@@ -26,8 +50,20 @@
           :flipped="false"
           title="OpenChat"
           body="pages.projects.projects_section.openchat.body"
-          url="https://www.vuejs.com/"
           cover="projects/openchat/cover.jpg"
+          :urls="{
+            0: {
+              type: 'website',
+              site: 'https://www.vuejs.org/',
+              text: 'Website'
+            },
+            1: {
+              type: 'github',
+              site: 'https://www.github.com/',
+              text: 'Github'
+            }
+          }"
+          :technologies="['Vue.js', 'React.js', 'Angular.js']"
         >
         </ReusableProject>
 
@@ -35,8 +71,20 @@
           :flipped="true"
           title="DiLombardo"
           body="pages.projects.projects_section.dilombardo.body"
-          url="https://www.vuejs.com/"
           cover="projects/dilombardo/cover.jpg"
+          :urls="{
+            0: {
+              type: 'website',
+              site: 'https://www.vuejs.org/',
+              text: 'Website'
+            },
+            1: {
+              type: 'github',
+              site: 'https://www.github.com/',
+              text: 'Github'
+            }
+          }"
+          :technologies="['Vue.js', 'React.js', 'Angular.js']"
         >
         </ReusableProject>
 
@@ -44,8 +92,20 @@
           :flipped="false"
           title="Colorless"
           body="pages.projects.projects_section.colorless.body"
-          url="https://www.vuejs.com/"
           cover="projects/colorless/cover.jpg"
+          :urls="{
+            0: {
+              type: 'website',
+              site: 'https://www.vuejs.org/',
+              text: 'Website'
+            },
+            1: {
+              type: 'github',
+              site: 'https://www.github.com/',
+              text: 'Github'
+            }
+          }"
+          :technologies="['Vue.js', 'React.js', 'Angular.js']"
         >
         </ReusableProject>
       </div>
