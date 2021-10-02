@@ -19,11 +19,18 @@
     </a>
     <span
       v-if="technology"
-      class="inline-block cursor-pointer transition-all duration-200 px-3 py-1 rounded-full mr-2"
+      class="inline-block cursor-pointer transition-all duration-200 px-3 py-1 rounded-md mr-2"
       :class="{
-        'bg-green-600 hover:bg-green-700 text-white' : technology == 'Vue.js',
-        'bg-blue-400 hover:bg-blue-500 text-white' : technology == 'React.js',
-        'bg-red-600 hover:bg-red-700 text-white' : technology == 'Angular.js',
+        'bg-html-100 hover:bg-html-200 text-white' : technology == 'HTML',
+        'bg-css-100 hover:bg-css-200 text-white' : technology == 'CSS',
+        'bg-javascript-100 hover:bg-javascript-200 text-white' : technology == 'JavaScript',
+        'bg-gdscript-100 hover:bg-gdscript-200 text-white' : technology == 'GDScript',
+        'bg-vuejs-100 hover:bg-vuejs-200 text-white' : technology == 'Vue.js',
+        'bg-reactjs-100 hover:bg-reactjs-200 text-white' : technology == 'React.js',
+        'bg-laravel-100 hover:bg-laravel-200 text-white' : technology == 'Laravel',
+        'bg-tailwindcss-100 hover:bg-tailwindcss-200 text-white' : technology == 'TailwindCSS',
+        'bg-bootstrapcss-100 hover:bg-bootstrapcss-200 text-white' : technology == 'BootstrapCSS',
+        'bg-pusher-100 hover:bg-pusher-200 text-white' : technology == 'Pusher',
       }"
     >
       {{ technology }}

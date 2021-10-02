@@ -12,16 +12,16 @@
           :urls="{
             0: {
               type: 'website',
-              site: 'https://www.vuejs.org/',
+              site: 'http://devsoverflow.atwebpages.com/',
               text: 'Website'
             },
             1: {
               type: 'github',
-              site: 'https://www.github.com/',
+              site: 'https://www.github.com/LombardoCode/devsoverflow',
               text: 'Github'
             }
           }"
-          :technologies="['Vue.js', 'React.js', 'Angular.js']"
+          :technologies="['HTML', 'CSS', 'JavaScript', 'Vue.js', 'Laravel', 'TailwindCSS']"
         >
         </ReusableProject>
 
@@ -33,16 +33,16 @@
           :urls="{
             0: {
               type: 'website',
-              site: 'https://www.vuejs.org/',
+              site: 'http://www.shortify.atwebpages.com/',
               text: 'Website'
             },
             1: {
               type: 'github',
-              site: 'https://www.github.com/',
+              site: 'https://www.github.com/LombardoCode/shortify',
               text: 'Github'
             }
           }"
-          :technologies="['Vue.js', 'React.js', 'Angular.js']"
+          :technologies="['HTML', 'CSS', 'JavaScript', 'Vue.js', 'Laravel', 'TailwindCSS']"
         >
         </ReusableProject>
 
@@ -54,16 +54,16 @@
           :urls="{
             0: {
               type: 'website',
-              site: 'https://www.vuejs.org/',
+              site: 'http://www.openchat.epizy.com/',
               text: 'Website'
             },
             1: {
               type: 'github',
-              site: 'https://www.github.com/',
+              site: 'https://www.github.com/LombardoCode/openchat',
               text: 'Github'
             }
           }"
-          :technologies="['Vue.js', 'React.js', 'Angular.js']"
+          :technologies="['HTML', 'CSS', 'JavaScript', 'React.js', 'Laravel', 'BootstrapCSS', 'Pusher']"
         >
         </ReusableProject>
 
@@ -75,16 +75,16 @@
           :urls="{
             0: {
               type: 'website',
-              site: 'https://www.vuejs.org/',
+              site: 'https://dilombardo.herokuapp.com/',
               text: 'Website'
             },
             1: {
               type: 'github',
-              site: 'https://www.github.com/',
+              site: 'https://www.github.com/LombardoCode/dilombardo',
               text: 'Github'
             }
           }"
-          :technologies="['Vue.js', 'React.js', 'Angular.js']"
+          :technologies="['HTML', 'CSS', 'JavaScript']"
         >
         </ReusableProject>
 
@@ -96,16 +96,16 @@
           :urls="{
             0: {
               type: 'website',
-              site: 'https://www.vuejs.org/',
-              text: 'Website'
+              site: 'https://www.github.com/LombardoCode/Colorless',
+              text: 'Descargar'
             },
             1: {
               type: 'github',
-              site: 'https://www.github.com/',
+              site: 'https://www.github.com/LombardoCode/Colorless',
               text: 'Github'
             }
           }"
-          :technologies="['Vue.js', 'React.js', 'Angular.js']"
+          :technologies="['GDScript']"
         >
         </ReusableProject>
       </div>
