@@ -124,7 +124,12 @@
         {
           "title": "Conocimientos técnicos",
           "list": [
-            "Inglés avanzado"
+            "Advanced English",
+            "BootstrapCSS, TailwindCSS",
+            "HTML, CSS, JavaScript, PHP, GDScript, SQL",
+            "Vue.js, Laravel",
+            "MySQL/MariaDB Databases",
+            "Linux and Windows"
           ]
         },
 
@@ -145,7 +150,8 @@
             }
           ]
         }
-      ]
+      ],
+      "download_button": "Descargar PDF"
     }
 
 

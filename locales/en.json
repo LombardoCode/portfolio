@@ -36,7 +36,7 @@
       "heading": {
         "occupation": [
           {
-            "title": "Desarollador Web"
+            "title": "Web Developer"
           }
         ]
       },
@@ -75,7 +75,7 @@
         },
 
         {
-          "title": "Habilidades",
+          "title": "Soft skills",
           "list": [
             "Responsability",
             "Discipline",
@@ -124,7 +124,12 @@
         {
           "title": "Technical skills",
           "list": [
-            "Advanced English"
+            "Advanced English",
+            "BootstrapCSS, TailwindCSS",
+            "HTML, CSS, JavaScript, PHP, GDScript, SQL",
+            "Vue.js, Laravel",
+            "MySQL/MariaDB Databases",
+            "Linux and Windows"
           ]
         },
 
@@ -145,7 +150,8 @@
             }
           ]
         }
-      ]
+      ],
+      "download_button": "Download PDF"
     }
 
 

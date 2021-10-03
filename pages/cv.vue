@@ -4,7 +4,7 @@
     <ReusableContainer :top_spacing="false">
       <div class="relative">
         <div class="bg-gray-1000 relative">
-          <button id="download-pdf" class="fixed z-20 bg-gradient-to-br from-blue-600 to-blue-700 text-white text-xl uppercase roboto font-medium rounded-lg hover:from-blue-700 hover:to-blue-800 w-full md:w-auto mb-4 py-6 md:py-6 px-0 md:px-24 m-0 md:m-4" style="bottom: 0%; right: 0%;">Descargar PDF</button>
+          <button id="download-pdf" class="fixed z-20 bg-gradient-to-br from-blue-600 to-blue-700 text-white text-xl uppercase roboto font-medium rounded-lg hover:from-blue-700 hover:to-blue-800 w-full md:w-auto mb-4 py-6 md:py-6 px-0 md:px-24 m-0 md:m-4" style="bottom: 0%; right: 0%;">{{ $t('pages.cv.download_button') }}</button>
           <div class="container mx-auto">
             <div id="cv">
               <div id="header-cv" class="py-10 px-10 bg-blue-800 oswald uppercase bg-blue-1000 text-white text-center">
@@ -99,68 +99,67 @@ export default {
             font_awesome_icon: 'fas fa-suitcase',
             sub_items: [
               {
-                heading_1: 'pages.cv.right_side[0].sub_items[0].heading1',
-                heading_2: 'pages.cv.right_side[0].sub_items[0].heading2',
+                heading_1: 'pages.cv.right_side[0].sub_items[0].heading_1',
+                heading_2: 'pages.cv.right_side[0].sub_items[0].heading_2',
                 heading_3: [
-                  "pages.cv.right_side[0].sub_items[0].heading3[0]",
-                  "pages.cv.right_side[0].sub_items[0].heading3[1]"
+                  "pages.cv.right_side[0].sub_items[0].heading_3[0]",
+                  "pages.cv.right_side[0].sub_items[0].heading_3[1]"
                 ]
               },
               {
-                heading_1: 'pages.cv.right_side[0].sub_items[1].heading1',
-                heading_2: 'pages.cv.right_side[0].sub_items[1].heading2',
+                heading_1: 'pages.cv.right_side[0].sub_items[1].heading_1',
+                heading_2: 'pages.cv.right_side[0].sub_items[1].heading_2',
                 heading_3: [
-                  "pages.cv.right_side[0].sub_items[1].heading3[0]",
-                  "pages.cv.right_side[0].sub_items[1].heading3[1]"
+                  "pages.cv.right_side[0].sub_items[1].heading_3[0]",
                 ]
               }
             ]
           },
 
           {
-            title: 'Educación',
+            title: 'pages.cv.right_side[1].title',
             font_awesome_icon: 'fas fa-graduation-cap',
             sub_items: [
               {
-                heading_1: 'Universidad TecMilenio | AGO 2017 - JUN 2021.',
-                heading_2: 'Estudiante de Ingeniería en Computación Administrativa',
+                heading_1: 'pages.cv.right_side[1].sub_items[0].heading_1',
+                heading_2: 'pages.cv.right_side[1].sub_items[0].heading_2',
               },
               {
-                heading_1: 'Quick Learning | AGO 2010 - AGO 2012',
-                heading_2: 'Escuela de Inglés',
+                heading_1: 'pages.cv.right_side[1].sub_items[1].heading_1',
+                heading_2: 'pages.cv.right_side[1].sub_items[1].heading_2',
               }
             ]
           },
 
           {
-            title: 'Conocimientos técnicos',
+            title: 'pages.cv.right_side[2].title',
             font_awesome_icon: 'fas fa-cog',
             list: [
-              "Inglés avanzado",
-              "Vue.js, Laravel",
-              "HTML, CSS, JavaScript, PHP, GDScript, SQL",
-              "Bootstrap, Tailwind",
-              "GIMP, Photoshop",
-              "Linux, Windows"
+              "pages.cv.right_side[2].list[0]",
+              "pages.cv.right_side[2].list[1]",
+              "pages.cv.right_side[2].list[2]",
+              "pages.cv.right_side[2].list[3]",
+              "pages.cv.right_side[2].list[4]",
+              "pages.cv.right_side[2].list[5]"
             ]
           },
 
           {
-            title: 'Idiomas',
+            title: 'pages.cv.right_side[3].title',
             font_awesome_icon: 'fas fa-globe-americas',
             list: [
-              "Español (Nativo)",
-              "Inglés (Avanzado)",
+              "pages.cv.right_side[3].list[0]",
+              "pages.cv.right_side[3].list[1]",
             ]
           },
 
           {
-            title: 'Reconocimientos',
+            title: 'pages.cv.right_side[4].title',
             font_awesome_icon: 'fas fa-award',
             sub_items: [
               {
-                heading_1: 'Certificado de excelencia',
-                heading_2: 'Quick Learning (Inglés)',
+                heading_1: 'pages.cv.right_side[4].sub_items[0].heading_1',
+                heading_2: 'pages.cv.right_side[4].sub_items[0].heading_2',
               },
             ]
           },
