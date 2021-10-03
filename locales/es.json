@@ -28,6 +28,131 @@
           "body": "Este es el cuerpo del proyecto de colorless."
         }
       }
+    },
+
+
+
+    "cv": {
+      "heading": {
+        "occupation": [
+          {
+            "title": "Desarollador Web"
+          }
+        ]
+      },
+      "left_side": [
+        {
+          "title": "Contacto",
+          "items": [
+            {
+              "text": "811-906-1750"
+            },
+            {
+              "text": "LombardoBusiness@gmail.com"
+            }
+          ]
+        },
+
+        {
+          "title": "Sitio web",
+          "items": [
+            {
+              "text": "https://www.lombardo.dev/"
+            }
+          ]
+        },
+
+        {
+          "title": "Portfolio de proyectos",
+          "items": [
+            {
+              "text": "https://www.lombardo.dev/proyectos"
+            },
+            {
+              "text": "https://www.github.com/LombardoCode/"
+            }
+          ]
+        },
+
+        {
+          "title": "Habilidades",
+          "list": [
+            "Responsabilidad",
+            "Disciplina",
+            "Trabajo en equipo",
+            "Proactivo",
+            "Autodidacta"
+          ]
+        }
+      ],
+      "right_side": [
+        {
+          "title": "Experiencia laboral",
+          "sub_items": [
+            {
+              "heading_1": "Ayudante general",
+              "heading_2": "Servicio Moreno Car Wash | FEB 2014 - JUL 2018",
+              "heading_3": [
+                "- Recibir material de proveedores",
+                "- Lavado, engrasado y aspirado de los vehículos"
+              ]
+            },
+            {
+              "heading_1": "Colaborador",
+              "heading_2": "Zihuame Mochilla | SEP 2018 - MAR 2019",
+              "heading_3": [
+                "- Recaudación de material para proyectos sociales"
+              ]
+            }
+          ]
+        },
+
+        {
+          "title": "Educación",
+          "sub_items": [
+            {
+              "heading_1": "Universidad TecMilenio | AGO 2017 - JUN 2021.",
+              "heading_2": "Ingeniería en Computación Administrativa"
+            },
+            {
+              "heading_1": "Quick Learning | AGO 2010 - AGO 2012",
+              "heading_2": "Escuela de Inglés"
+            }
+          ]
+        },
+
+        {
+          "title": "Conocimientos técnicos",
+          "list": [
+            "Inglés avanzado"
+          ]
+        },
+
+        {
+          "title": "Idiomas",
+          "list": [
+            "Español (Nativo)",
+            "Inglés (Avanzado)"
+          ]
+        },
+
+        {
+          "title": "Reconocimientos",
+          "sub_items": [
+            {
+              "heading_1": "Certificado de excelencia",
+              "heading_2": "Quick Learning (Inglés)"
+            }
+          ]
+        }
+      ]
     }
+
+
+
+
+
+
+
   }
 }

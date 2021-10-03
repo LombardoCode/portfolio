@@ -28,6 +28,134 @@
           "body": "This is the body of the colorless's project."
         }
       }
+    },
+
+
+
+    "cv": {
+      "heading": {
+        "occupation": [
+          {
+            "title": "Desarollador Web"
+          }
+        ]
+      },
+      "left_side": [
+        {
+          "title": "Contact",
+          "items": [
+            {
+              "text": "811-906-1750"
+            },
+            {
+              "text": "LombardoBusiness@gmail.com"
+            }
+          ]
+        },
+
+        {
+          "title": "Website",
+          "items": [
+            {
+              "text": "https://www.lombardo.dev/"
+            }
+          ]
+        },
+
+        {
+          "title": "Projects portfolio",
+          "items": [
+            {
+              "text": "https://www.lombardo.dev/en/projects"
+            },
+            {
+              "text": "https://www.github.com/LombardoCode/"
+            }
+          ]
+        },
+
+        {
+          "title": "Habilidades",
+          "list": [
+            "Responsability",
+            "Discipline",
+            "Workteam",
+            "Proactive",
+            "Self-learner"
+          ]
+        }
+      ],
+      "right_side": [
+        {
+          "title": "Work experience",
+          "sub_items": [
+            {
+              "heading_1": "General assistant",
+              "heading_2": "Servicio Moreno Car Wash | FEB 2014 - JUL 2018",
+              "heading_3": [
+                "- Receive material from suppliers",
+                "- Washing, oiling and interior-cleaning of the vehicles"
+              ]
+            },
+            {
+              "heading_1": "Collaborator",
+              "heading_2": "Zihuame Mochilla | SEP 2018 - MAR 2019",
+              "heading_3": [
+                "- Collect material for social projects"
+              ]
+            }
+          ]
+        },
+
+        {
+          "title": "Education",
+          "sub_items": [
+            {
+              "heading_1": "Universidad TecMilenio | AUG 2017 - JUN 2021.",
+              "heading_2": "Administrative Computation Engineering"
+            },
+            {
+              "heading_1": "Quick Learning | AUG 2010 - AUG 2012",
+              "heading_2": "English school"
+            }
+          ]
+        },
+
+        {
+          "title": "Technical skills",
+          "list": [
+            "Advanced English"
+          ]
+        },
+
+        {
+          "title": "Languages",
+          "list": [
+            "Spanish (Native)",
+            "English (Advanced)"
+          ]
+        },
+
+        {
+          "title": "Awards",
+          "sub_items": [
+            {
+              "heading_1": "Certification of excellence",
+              "heading_2": "Quick Learning (English)"
+            }
+          ]
+        }
+      ]
     }
+
+
+
+
+
+
+
+
+
+
   }
 }

@@ -9,7 +9,7 @@
             <div id="cv">
               <div id="header-cv" class="py-10 px-10 bg-blue-800 oswald uppercase bg-blue-1000 text-white text-center">
                 <p class="text-5xl mb-2">Lombardo Moreno Rodríguez</p>
-                <p class="text-3xl">Desarrollador Web</p>
+                <p class="text-3xl">{{ $t('pages.cv.heading.occupation[0].title') }}</p>
               </div>
               <div id="body-cv" class="flex flex-col lg:flex-row bg-blue-900">
                 <div id="left-side-cv" class="w-full lg:w-80 bg-gray-1100 text-white px-5 py-8">
@@ -39,79 +39,79 @@ export default {
       cv: {
         left_side: [
           {
-            title: 'Contacto',
+            title: 'pages.cv.left_side[0].title',
             items: [
               {
                 type: 'general',
                 font_awesome_icon: 'fas fa-phone-alt rotate-90',
-                text: '811-906-1750',
+                text: 'pages.cv.left_side[0].items[0].text',
               },
               {
                 type: 'email',
                 font_awesome_icon: 'fas fa-envelope',
-                text: 'LombardoBusiness@gmail.com'
+                text: 'pages.cv.left_side[0].items[1].text'
               }
             ]
           },
 
           {
-            title: 'Sitio web',
+            title: 'pages.cv.left_side[1].title',
             items: [
               {
                 type: 'website',
                 font_awesome_icon: 'fas fa-globe',
-                text: 'https://www.lombardo.dev/'
+                text: 'pages.cv.left_side[1].items[0].text'
               },
             ]
           },
 
           {
-            title: 'Portfolio de proyectos',
+            title: 'pages.cv.left_side[2].title',
             items: [
               {
                 type: 'website',
                 font_awesome_icon: 'fas fa-globe',
-                text: 'https://www.lombardo.dev/proyectos'
+                text: 'pages.cv.left_side[2].items[0].text'
               },
 
               {
                 type: 'website',
                 font_awesome_icon: 'fab fa-github',
-                text: 'https://www.github.com/LombardoCode/'
+                text: 'pages.cv.left_side[2].items[1].text'
               },
             ]
           },
 
           {
-            title: 'Habilidades',
+            title: 'pages.cv.left_side[3].title',
             list: [
-              "Responsabilidad",
-              "Disciplina",
-              "Trabajo en equipo",
-              "Proactivo",
-              "Autodidacta"
+              "pages.cv.left_side[3].list[0]",
+              "pages.cv.left_side[3].list[1]",
+              "pages.cv.left_side[3].list[2]",
+              "pages.cv.left_side[3].list[3]",
+              "pages.cv.left_side[3].list[4]"
             ]
           }
         ],
         right_side: [
           {
-            title: 'Experiencia laboral',
+            title: 'pages.cv.right_side[0].title',
             font_awesome_icon: 'fas fa-suitcase',
             sub_items: [
               {
-                heading_1: 'Ayudante general',
-                heading_2: 'Servicio Moreno Car Wash | FEB 2014 - JUL 2018',
+                heading_1: 'pages.cv.right_side[0].sub_items[0].heading1',
+                heading_2: 'pages.cv.right_side[0].sub_items[0].heading2',
                 heading_3: [
-                  "- Recibir material de proveedores",
-                  "- Lavado, engrasado y aspirado de los vehículos"
+                  "pages.cv.right_side[0].sub_items[0].heading3[0]",
+                  "pages.cv.right_side[0].sub_items[0].heading3[1]"
                 ]
               },
               {
-                heading_1: 'Colaborador',
-                heading_2: 'Zihuame Mochilla | SEP 2018 - MAR 2019',
+                heading_1: 'pages.cv.right_side[0].sub_items[1].heading1',
+                heading_2: 'pages.cv.right_side[0].sub_items[1].heading2',
                 heading_3: [
-                  "- Recaudación de material para proyectos sociales",
-                  "- Difusión en redes sociales"
+                  "pages.cv.right_side[0].sub_items[1].heading3[0]",
+                  "pages.cv.right_side[0].sub_items[1].heading3[1]"
                 ]
               }
             ]
