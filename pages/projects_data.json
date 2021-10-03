@@ -1,0 +1,97 @@
+[
+  {
+    "flipped": false,
+    "title": "DevsOverflow",
+    "body": "pages.projects.projects_section.devsoverflow.body",
+    "cover": "projects/devsoverflow/cover.jpg",
+    "urls": [
+      {
+        "type": "website",
+        "site": "http://devsoverflow.atwebpages.com/",
+        "text": "Website"
+      },
+      {
+        "type": "github",
+        "site": "https://www.github.com/LombardoCode/devsoverflow",
+        "text": "Github"
+      }
+    ],
+    "technologies": ["HTML", "CSS", "JavaScript", "Vue.js", "Laravel", "TailwindCSS"]
+  },
+  {
+    "flipped": true,
+    "title": "shortify",
+    "body": "pages.projects.projects_section.shortify.body",
+    "cover": "projects/shortify/cover.jpg",
+    "urls": [
+      {
+        "type": "website",
+        "site": "http://www.shortify.atwebpages.com/",
+        "text": "Website"
+      },
+      {
+        "type": "github",
+        "site": "https://www.github.com/LombardoCode/shortify",
+        "text": "Github"
+      }
+    ],
+    "technologies": ["HTML", "CSS", "JavaScript", "Vue.js", "Laravel", "TailwindCSS"]
+  },
+  {
+    "flipped": false,
+    "title": "OpenChat",
+    "body": "pages.projects.projects_section.openchat.body",
+    "cover": "projects/openchat/cover.jpg",
+    "urls": [
+      {
+        "type": "website",
+        "site": "http://www.openchat.epizy.com/",
+        "text": "Website"
+      },
+      {
+        "type": "github",
+        "site": "https://www.github.com/LombardoCode/openchat",
+        "text": "Github"
+      }
+    ],
+    "technologies": ["HTML", "CSS", "JavaScript", "React.js", "Laravel", "BootstrapCSS", "Pusher"]
+  },
+  {
+    "flipped": true,
+    "title": "DiLombardo",
+    "body": "pages.projects.projects_section.dilombardo.body",
+    "cover": "projects/dilombardo/cover.jpg",
+    "urls": [
+      {
+        "type": "website",
+        "site": "https://dilombardo.herokuapp.com/",
+        "text": "Website"
+      },
+      {
+        "type": "github",
+        "site": "https://www.github.com/LombardoCode/dilombardo",
+        "text": "Github"
+      }
+    ],
+    "technologies": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "flipped": false,
+    "title": "Colorless",
+    "body": "pages.projects.projects_section.colorless.body",
+    "cover": "projects/colorless/cover.jpg",
+    "urls": [
+      {
+        "type": "website",
+        "site": "https://www.github.com/LombardoCode/Colorless",
+        "text": "Descargar"
+      },
+      {
+        "type": "github",
+        "site": "https://www.github.com/LombardoCode/Colorless",
+        "text": "Github"
+      }
+    ],
+    "technologies": ["GDScript"]
+  }
+]

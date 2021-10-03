@@ -1,5 +1,5 @@
 <template>
-  <div class="select-none" :class="{'fixed w-full': fixed_navbar}">
+  <div class="select-none" :class="classesNavbar">
     <div class="container mx-auto">
       <div class="flex justify-between items-center text-white py-3">
         <span>Logo</span>
@@ -19,7 +19,19 @@
 <script>
 export default {
   props: {
-    fixed_navbar: Boolean
+    fixed_navbar: Boolean,
+    backgroundColor: {
+      type: String,
+      default: ''
+    }
+  },
+  computed: {
+    classesNavbar() {
+      let classes = '';
+      if (this.fixed_navbar) { classes += 'fixed w-full ' }
+      if (this.backgroundColor) { classes += this.backgroundColor }
+      return classes;
+    }
   }
 }
 </script>
