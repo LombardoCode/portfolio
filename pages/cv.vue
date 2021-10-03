@@ -50,149 +50,8 @@
                   </div>
                 </div>
                 <div id="right-side-cv" class="flex-1 px-5 py-8 leading-tight bg-white text-black">
-                  <div id="work-experience" class="mb-12">
-                    <div class="flex items-center">
-                      <i class="fas fa-suitcase mr-3 text-3xl align-middle"></i>
-                      <h2 class="raleway text-4xl font-bold uppercase" style="font-weight: 900">Experiencia laboral</h2>
-                    </div>
-                    <div id="jobs">
-                      <ul>
-                        <li class="job mb-3">
-                          <div class="flex items-center relative">
-                            <i class="fas fa-square mr-3 align-middle transform rotate-45 text-md absolute"></i>
-                            <h3 class="pl-6 text-3xl font-medium roboto">Ayudante general</h3>
-                          </div>
-                          <h4 class="pl-6 text-2xl font-medium roboto">Servicio Moreno Car Wash | FEB 2014 - JUL 2018</h4>
-                          <ul class="pl-6 text-xl roboto">
-                            <li class="pl-4">- Recibir material de proveedores</li>
-                            <li class="pl-4">- Lavado, engrasado y aspirado de los vehículos</li>
-                          </ul>
-                        </li>
-
-                        <li class="job">
-                          <div class="flex items-center relative">
-                            <i class="fas fa-square mr-3 align-middle transform rotate-45 text-md absolute"></i>
-                            <h3 class="pl-6 text-3xl font-medium roboto">Colaborador</h3>
-                          </div>
-                          <h4 class="pl-6 text-2xl font-medium roboto">Zihuame Mochilla | SEP 2018 - MAR 2019</h4>
-                          <ul class="pl-6 text-xl roboto">
-                            <li class="pl-4">- Recaudación de material para proyectos sociales</li>
-                            <li class="pl-4">- Difusión en redes sociales</li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-
-                  <div id="education" class="mb-12">
-                    <div class="flex items-center">
-                      <i class="fas fa-graduation-cap mr-3 text-3xl align-middle"></i>
-                      <h2 class="raleway text-4xl font-bold uppercase" style="font-weight: 900">Educación</h2>
-                    </div>
-                    <div id="studies">
-                      <ul>
-                        <li class="study-institute mb-3">
-                          <div class="flex items-center relative">
-                            <i class="fas fa-square mr-3 align-middle transform rotate-45 text-md absolute"></i>
-                            <h3 class="pl-6 text-3xl font-medium roboto">Universidad TecMilenio | AGO 2017 - JUN 2021.</h3>
-                          </div>
-                          <h4 class="pl-6 text-2xl font-medium roboto">Estudiante de Ingeniería en Computación Administrativa</h4>
-                          <p class="pl-6 text-xl roboto">Actualmente cursando 6to semestre</p>
-                        </li>
-
-                        <li class="study-institute">
-                          <div class="flex items-center relative">
-                            <i class="fas fa-square mr-3 align-middle transform rotate-45 text-md absolute"></i>
-                            <h3 class="pl-6 text-3xl font-medium roboto">Quick Learning | AGO 2010 - AGO 2012</h3>
-                          </div>
-                          <h4 class="pl-6 text-2xl font-medium roboto">Escuela de Inglés</h4>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-
-                  <div id="technical-skills-wrapper" class="mb-12">
-                    <div class="flex items-center">
-                      <i class="fas fa-graduation-cap mr-3 text-3xl align-middle"></i>
-                      <h2 class="raleway text-4xl font-bold uppercase" style="font-weight: 900">Conocimientos técnicos</h2>
-                    </div>
-                    <div id="technical-skills">
-                      <ul>
-                        <li class="mb-3 flex flex-wrap">
-                          <div class="flex items-center relative w-full lg:w-1/2 pr-2">
-                            <i class="fas fa-square mr-3 align-middle transform rotate-45 text-md absolute"></i>
-                            <h3 class="pl-6 text-2xl font-medium roboto">Inglés avanzado</h3>
-                          </div>
-                          <div class="flex items-center relative w-full lg:w-1/2 lg:pl-2">
-                            <i class="fas fa-square mr-3 align-middle transform rotate-45 text-md absolute"></i>
-                            <h3 class="pl-6 text-2xl font-medium roboto">Vue.js, Laravel</h3>
-                          </div>
-                          <div class="flex items-center relative w-full lg:w-1/2 pr-2">
-                            <i class="fas fa-square mr-3 align-middle transform rotate-45 text-md absolute"></i>
-                            <h3 class="pl-6 text-2xl font-medium roboto">HTML, CSS, JavaScript, PHP, GDScript, SQL</h3>
-                          </div>
-                          <div class="flex items-center relative w-full lg:w-1/2 lg:pl-2">
-                            <i class="fas fa-square mr-3 align-middle transform rotate-45 text-md absolute"></i>
-                            <h3 class="pl-6 text-2xl font-medium roboto">Bootstrap, Tailwind</h3>
-                          </div>
-                          <div class="flex items-center relative w-full lg:w-1/2 pr-2">
-                            <i class="fas fa-square mr-3 align-middle transform rotate-45 text-md absolute"></i>
-                            <h3 class="pl-6 text-2xl font-medium roboto">GIMP, Photoshop</h3>
-                          </div>
-                          <div class="flex items-center relative w-full lg:w-1/2 lg:pl-2">
-                            <i class="fas fa-square mr-3 align-middle transform rotate-45 text-md absolute"></i>
-                            <h3 class="pl-6 text-2xl font-medium roboto">Linux, Windows</h3>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-
-                  <div id="soft-skills-wrapper" class="mb-12">
-                    <div class="flex items-center">
-                      <i class="fas fa-graduation-cap mr-3 text-3xl align-middle"></i>
-                      <h2 class="raleway text-4xl font-bold uppercase" style="font-weight: 900">Habilidades</h2>
-                    </div>
-                    <div>
-                      <ul>
-                        <li class="mb-3 flex flex-wrap">
-                          <div class="flex items-center relative w-full lg:w-1/2 pr-2">
-                            <i class="fas fa-square mr-3 align-middle transform rotate-45 text-md absolute"></i>
-                            <h3 class="pl-6 text-2xl font-medium roboto">Trabajo en equipo</h3>
-                          </div>
-                          <div class="flex items-center relative w-full lg:w-1/2 lg:pl-2">
-                            <i class="fas fa-square mr-3 align-middle transform rotate-45 text-md absolute"></i>
-                            <h3 class="pl-6 text-2xl font-medium roboto">Ganas de aprender</h3>
-                          </div>
-                          <div class="flex items-center relative w-full lg:w-1/2 pr-2">
-                            <i class="fas fa-square mr-3 align-middle transform rotate-45 text-md absolute"></i>
-                            <h3 class="pl-6 text-2xl font-medium roboto">Proactivo</h3>
-                          </div>
-                          <div class="flex items-center relative w-full lg:w-1/2 lg:pl-2">
-                            <i class="fas fa-square mr-3 align-middle transform rotate-45 text-md absolute"></i>
-                            <h3 class="pl-6 text-2xl font-medium roboto">Fácil para trabajar</h3>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-
-                  <div id="diplomas" class="mb-12">
-                    <div class="flex items-center">
-                      <i class="fas fa-graduation-cap mr-3 text-3xl align-middle"></i>
-                      <h2 class="raleway text-4xl font-bold uppercase" style="font-weight: 900">Reconocimientos</h2>
-                    </div>
-                    <div>
-                      <ul>
-                        <li class="mb-3">
-                          <div class="flex items-center relative">
-                            <i class="fas fa-square mr-3 align-middle transform rotate-45 text-md absolute"></i>
-                            <h3 class="pl-6 text-3xl font-medium roboto">Certificado de excelencia</h3>
-                          </div>
-                          <p class="pl-6 text-2xl roboto">Quick Learning (Inglés)</p>
-                        </li>
-                      </ul>
-                    </div>
+                  <div class="mb-12" v-for="(item, index) in cv.right_side" :key="index">
+                    <ReusableCVSection :item="item"></ReusableCVSection>
                   </div>
                 </div>
               </div>
@@ -206,7 +65,76 @@
 
 <script>
 export default {
-  name: 'cv'
+  name: 'cv',
+  data() {
+    return {
+      cv: {
+        right_side: [
+          {
+            title: 'Experiencia laboral',
+            font_awesome_icon: '',
+            sub_items: [
+              {
+                heading_1: 'Ayudante general',
+                heading_2: 'Servicio Moreno Car Wash | FEB 2014 - JUL 2018',
+                heading_3: [
+                  "- Recibir material de proveedores",
+                  "- Lavado, engrasado y aspirado de los vehículos"
+                ]
+              },
+              {
+                heading_1: 'Colaborador',
+                heading_2: 'Zihuame Mochilla | SEP 2018 - MAR 2019',
+                heading_3: [
+                  "- Recaudación de material para proyectos sociales",
+                  "- Difusión en redes sociales"
+                ]
+              }
+            ]
+          },
+
+          {
+            title: 'Educación',
+            font_awesome_icon: '',
+            sub_items: [
+              {
+                heading_1: 'Universidad TecMilenio | AGO 2017 - JUN 2021.',
+                heading_2: 'Estudiante de Ingeniería en Computación Administrativa',
+              },
+              {
+                heading_1: 'Quick Learning | AGO 2010 - AGO 2012',
+                heading_2: 'Escuela de Inglés',
+              }
+            ]
+          },
+
+          {
+            title: 'Conocimientos técnicos',
+            font_awesome_icon: '',
+            list: [
+              "Inglés avanzado",
+              "Vue.js, Laravel",
+              "HTML, CSS, JavaScript, PHP, GDScript, SQL",
+              "Bootstrap, Tailwind",
+              "GIMP, Photoshop",
+              "Linux, Windows"
+            ]
+          },
+
+          {
+            title: 'Reconocimientos',
+            font_awesome_icon: '',
+            sub_items: [
+              {
+                heading_1: 'Certificado de excelencia',
+                heading_2: 'Quick Learning (Inglés)',
+              },
+            ]
+          },
+        ]
+      }
+    }
+  }
 }
 </script>
 
