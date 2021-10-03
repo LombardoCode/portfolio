@@ -47,7 +47,7 @@ module.exports = {
     }),
     extend: {
       width: {
-        'w-80': '21rem'
+        '80': '23rem',
       }
     },
   },

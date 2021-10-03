@@ -12,46 +12,14 @@
                 <p class="text-3xl">Desarrollador Web</p>
               </div>
               <div id="body-cv" class="flex flex-col lg:flex-row bg-blue-900">
-                <div id="left-side-cv" class="bg-gray-1100 text-white px-5 py-8">
-                  <div id="contact" class="mb-10">
-                    <h3 class="oswald uppercase text-4xl">Contacto</h3>
-                    <div id="contact-wrapper" class="text-xl">
-                      <div id="phone" class="flex items-center py-1">
-                        <i class="fas fa-phone-alt mr-3 text-xl align-middle transform rotate-90"></i>
-                        <p>811-906-1750</p>
-                      </div>
-                      <div id="email" class="flex items-center py-1">
-                        <i class="fas fa-envelope mr-3 text-xl align-middle"></i>
-                        <p>LombardoBusiness@gmail.com</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div id="website" class="mb-10">
-                    <h3 class="oswald uppercase text-4xl">Sitio web</h3>
-                    <div class="flex items-center py-1 text-xl">
-                      <i class="fas fa-globe mr-3 text-xl align-middle"></i>
-                      <a href="https://www.lombardo.dev/" target="_blank" rel="noopener noreferrer">lombardo.dev</a>
-                    </div>
-                  </div>
-
-                  <div id="projects" class="w-full lg:w-56">
-                    <h3 class="oswald uppercase text-4xl">Portfolio de proyectos</h3>
-                    <div id="portfolio" class="text-xl">
-                      <div class="flex items-center py-1">
-                        <i class="fas fa-globe mr-3 text-xl align-middle"></i>
-                        <a href="https://www.lombardo.dev/proyectos" target="_blank" rel="noopener noreferrer">lombardo.dev/proyectos</a>
-                      </div>
-                      <div id="email" class="flex items-center py-1">
-                        <i class="fab fa-github mr-3 text-xl align-middle"></i>
-                        <a href="https://www.github.com/LombardoCode/" target="_blank" rel="noopener noreferrer">github.com/LombardoCode</a>
-                      </div>
-                    </div>
+                <div id="left-side-cv" class="w-full lg:w-80 bg-gray-1100 text-white px-5 py-8">
+                  <div class="mb-11" v-for="(item, index) in cv.left_side" :key="index">
+                    <ReusableCVLeftSection :item="item"></ReusableCVLeftSection>
                   </div>
                 </div>
                 <div id="right-side-cv" class="flex-1 px-5 py-8 leading-tight bg-white text-black">
                   <div class="mb-12" v-for="(item, index) in cv.right_side" :key="index">
-                    <ReusableCVSection :item="item"></ReusableCVSection>
+                    <ReusableCVRightSection :item="item"></ReusableCVRightSection>
                   </div>
                 </div>
               </div>
@@ -69,10 +37,66 @@ export default {
   data() {
     return {
       cv: {
+        left_side: [
+          {
+            title: 'Contacto',
+            items: [
+              {
+                type: 'general',
+                font_awesome_icon: 'fas fa-phone-alt rotate-90',
+                text: '811-906-1750',
+              },
+              {
+                type: 'email',
+                font_awesome_icon: 'fas fa-envelope',
+                text: 'LombardoBusiness@gmail.com'
+              }
+            ]
+          },
+
+          {
+            title: 'Sitio web',
+            items: [
+              {
+                type: 'website',
+                font_awesome_icon: 'fas fa-globe',
+                text: 'https://www.lombardo.dev/'
+              },
+            ]
+          },
+
+          {
+            title: 'Portfolio de proyectos',
+            items: [
+              {
+                type: 'website',
+                font_awesome_icon: 'fas fa-globe',
+                text: 'https://www.lombardo.dev/proyectos'
+              },
+
+              {
+                type: 'website',
+                font_awesome_icon: 'fab fa-github',
+                text: 'https://www.github.com/LombardoCode/'
+              },
+            ]
+          },
+
+          {
+            title: 'Habilidades',
+            list: [
+              "Responsabilidad",
+              "Disciplina",
+              "Trabajo en equipo",
+              "Proactivo",
+              "Autodidacta"
+            ]
+          }
+        ],
         right_side: [
           {
             title: 'Experiencia laboral',
-            font_awesome_icon: '',
+            font_awesome_icon: 'fas fa-suitcase',
             sub_items: [
               {
                 heading_1: 'Ayudante general',
@@ -95,7 +119,7 @@ export default {
 
           {
             title: 'Educación',
-            font_awesome_icon: '',
+            font_awesome_icon: 'fas fa-graduation-cap',
             sub_items: [
               {
                 heading_1: 'Universidad TecMilenio | AGO 2017 - JUN 2021.',
@@ -110,7 +134,7 @@ export default {
 
           {
             title: 'Conocimientos técnicos',
-            font_awesome_icon: '',
+            font_awesome_icon: 'fas fa-cog',
             list: [
               "Inglés avanzado",
               "Vue.js, Laravel",
@@ -122,8 +146,17 @@ export default {
           },
 
           {
+            title: 'Idiomas',
+            font_awesome_icon: 'fas fa-globe-americas',
+            list: [
+              "Español (Nativo)",
+              "Inglés (Avanzado)",
+            ]
+          },
+
+          {
             title: 'Reconocimientos',
-            font_awesome_icon: '',
+            font_awesome_icon: 'fas fa-award',
             sub_items: [
               {
                 heading_1: 'Certificado de excelencia',
@@ -143,10 +176,12 @@ export default {
   @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap')
   @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800;900&display=swap')
   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap')
+
   $nunito: 'Nunito Sans', 'Arial', 'sans-serif'
   $oswald: 'Oswald', 'Arial', 'sans-serif'
   $raleway: 'Raleway', 'Arial', 'sans-serif'
   $roboto: 'Roboto', 'Arial', 'sans-serif'
+
   .nunito
     font-family: $nunito
   .oswald
