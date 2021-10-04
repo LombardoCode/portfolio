@@ -16,7 +16,7 @@ module.exports = {
     backgroundColor: theme => ({
       ...theme('colors'),
       'html-100': '#E56027',
-      'html-200': '#D84924',
+      'html-200': '#943D18',
 
       'css-100': '#2760E5',
       'css-200': '#2449D8',
@@ -44,11 +44,19 @@ module.exports = {
 
       'pusher-100': '#300D4F',
       'pusher-200': '#170526',
+
+      'project-shortify': '#001151',
+      'project-colorless': '#0083BD'
     }),
     extend: {
       width: {
         '80': '23rem',
-      }
+      },
+      margin: {
+        '-18': '-4.5rem',
+        '-20': '-5rem',
+        '-22': '-5.5rem',
+       }
     },
   },
   variants: {

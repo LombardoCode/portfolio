@@ -11,21 +11,27 @@
     },
     "projects": {
       "title": "Personal projects",
+      "developed_on": "Developed on:",
+      "type": {
+        "website": "Website",
+        "github": "Github",
+        "download": "Download"
+      },
       "projects_section": {
         "devsoverflow": {
-          "body": "This is the body of the DevsOverflow's project."
+          "body": "DevsOverflow it's a Q&A website for programmers and people in the IT industry."
         },
         "shortify": {
-          "body": "This is the body of the shortify's project."
+          "body": "Shortify is a URL shortener, making URLs friendlier and sharable."
         },
         "openchat": {
-          "body": "This is the body of the openchat's project."
+          "body": "OpenChat it's a chat website in real-time."
         },
         "dilombardo": {
-          "body": "This is the body of the dilombardo's project."
+          "body": "DiLombardo it's a restaurant-themed website."
         },
         "colorless": {
-          "body": "This is the body of the colorless's project."
+          "body": "Colorless it's a 2D platform videogame. Explore 30 challenging levels and help Cuby to get all the skins of his body. Available for Linux, MacOS and Windows."
         }
       }
     },

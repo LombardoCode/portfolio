@@ -11,21 +11,27 @@
     },
     "projects": {
       "title": "Proyectos personales",
+      "developed_on": "Desarrollador en:",
+      "type": {
+        "website": "Sitio web",
+        "github": "Github",
+        "download": "Descargar"
+      },
       "projects_section": {
         "devsoverflow": {
-          "body": "Este es el cuerpo del proyecto de DevsOverflow."
+          "body": "DevsOverflow es un sitio de preguntas y respuestas dirigido exclusivamente para programadores y aficionados al mundo de TI."
         },
         "shortify": {
-          "body": "Este es el cuerpo del proyecto de shortify."
+          "body": "Shortify es un acortador de URLs, permitiendo hacer las URLs más amigables y más compartibles."
         },
         "openchat": {
-          "body": "Este es el cuerpo del proyecto de openchat."
+          "body": "OpenChat es un sitio de chats en línea en tiempo real."
         },
         "dilombardo": {
-          "body": "Este es el cuerpo del proyecto de dilombardo."
+          "body": "DiLombardo es un sitio web con temática de restaurante."
         },
         "colorless": {
-          "body": "Este es el cuerpo del proyecto de colorless."
+          "body": "Colorless es un videojuego de plataformas 2D. Explora 30 niveles retadores y ayuda a Cuby a conseguir todas las tonalidades de su cuerpo. Disponible para Linux, MacOS y Windows."
         }
       }
     },

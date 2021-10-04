@@ -1,5 +1,5 @@
 <template>
-  <div class="select-none" :class="classesNavbar">
+  <div class="select-none z-20" :class="classesNavbar">
     <div class="container mx-auto">
       <div class="flex justify-between items-center text-white py-3">
         <span>Logo</span>

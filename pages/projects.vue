@@ -1,15 +1,14 @@
 <template>
   <div class="bg-gradient-to-t text-black">
     <Navbar :fixed_navbar="true" backgroundColor="bg-black"/>
-    <h1 class="titular oswald text-center text-5xl font-medium uppercase pb-28 lg:pb-24 pt-28 bg-black text-white">{{ $t('pages.projects.title') }}</h1>
-    <div id="projects-container" class="bg-purple-500 relative transform -translate-y-10 z-10">
+    <h1 class="titular oswald text-center text-3xl sm:text-5xl font-medium uppercase pb-28 lg:pb-24 pt-28 bg-black text-white">{{ $t('pages.projects.title') }}</h1>
+    <div id="projects-container" class="relative transform -translate-y-10 z-10">
       <div id="projects">
         <ReusableProjectInList
           v-for="(project, index) in projects" :key="index"
           :project="project"
         >
         </ReusableProjectInList>
-
       </div>
     </div>
   </div>
