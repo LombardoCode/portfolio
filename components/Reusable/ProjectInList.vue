@@ -19,7 +19,7 @@
               :url="url"
             ></ReusableTag>
           </div>
-          <div class="technologies">
+          <div class="technologies" v-if="project.technologies">
             <p class="roboto-condensed font-bold text-xl mb-1" :class="project.textColor">{{ $t('pages.projects.developed_on') }}</p>
             <div class="flex flex-wrap">
               <ReusableTag v-for="(technology, index) in project.technologies" :key="index" :technology="technology" class="text-lg"></ReusableTag>

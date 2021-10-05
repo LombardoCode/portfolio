@@ -13,11 +13,14 @@
       "title": "Personal projects",
       "developed_on": "Developed on:",
       "type": {
-        "website": "Website",
+        "website": "Visit",
         "github": "Github",
         "download": "Download"
       },
       "projects_section": {
+        "portfolio": {
+          "body": "Website where I include information about myself and my projects that I've done."
+        },
         "devsoverflow": {
           "body": "DevsOverflow it's a Q&A website for programmers and people in the IT industry."
         },
@@ -29,6 +32,9 @@
         },
         "dilombardo": {
           "body": "DiLombardo it's a restaurant-themed website."
+        },
+        "frontend_mentor": {
+          "body": "Collection of front-end challenges that I've done taken from Frontend Mentor."
         },
         "colorless": {
           "body": "Colorless it's a 2D platform videogame. Explore 30 challenging levels and help Cuby to get all the skins of his body. Available for Linux, MacOS and Windows."

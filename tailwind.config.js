@@ -42,11 +42,16 @@ module.exports = {
       'bootstrapcss-100': '#8452D4',
       'bootstrapcss-200': '#351460',
 
+      'sass-100': '#CF649A',
+      'sass-200': '#913D68',
+
       'pusher-100': '#300D4F',
       'pusher-200': '#170526',
 
+      'project-portfolio': '#001C4F',
       'project-shortify': '#001151',
-      'project-colorless': '#0083BD'
+      'project-colorless': '#0083BD',
+      'project-frontendmentor': '#7513D6'
     }),
     extend: {
       width: {

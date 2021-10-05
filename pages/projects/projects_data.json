@@ -1,6 +1,29 @@
 [
   {
     "flipped": false,
+    "title": "Portfolio",
+    "body": "pages.projects.projects_section.portfolio.body",
+    "cover": "projects/devsoverflow/cover.jpg",
+    "backgroundColor": "bg-project-portfolio",
+    "textColor": "text-white",
+    "urls": [
+      {
+        "anchor_type": "external_website",
+        "theme": "website",
+        "site": "http://lombardo.dev/",
+        "text": "pages.projects.type.website"
+      },
+      {
+        "anchor_type": "external_website",
+        "theme": "github",
+        "site": "https://www.github.com/LombardoCode/portfolio",
+        "text": "pages.projects.type.github"
+      }
+    ],
+    "technologies": ["HTML", "CSS", "JavaScript", "Vue.js (Nuxt.js)", "TailwindCSS", "SASS"]
+  },
+  {
+    "flipped": true,
     "title": "DevsOverflow",
     "body": "pages.projects.projects_section.devsoverflow.body",
     "cover": "projects/devsoverflow/cover.jpg",
@@ -8,12 +31,14 @@
     "textColor": "text-black",
     "urls": [
       {
-        "type": "website",
+        "anchor_type": "external_website",
+        "theme": "website",
         "site": "http://devsoverflow.atwebpages.com/",
         "text": "pages.projects.type.website"
       },
       {
-        "type": "github",
+        "anchor_type": "external_website",
+        "theme": "github",
         "site": "https://www.github.com/LombardoCode/devsoverflow",
         "text": "pages.projects.type.github"
       }
@@ -21,7 +46,7 @@
     "technologies": ["HTML", "CSS", "JavaScript", "Vue.js", "Laravel", "TailwindCSS"]
   },
   {
-    "flipped": true,
+    "flipped": false,
     "title": "shortify",
     "body": "pages.projects.projects_section.shortify.body",
     "cover": "projects/shortify/cover.jpg",
@@ -29,12 +54,14 @@
     "textColor": "text-white",
     "urls": [
       {
-        "type": "website",
+        "anchor_type": "external_website",
+        "theme": "website",
         "site": "http://www.shortify.atwebpages.com/",
         "text": "pages.projects.type.website"
       },
       {
-        "type": "github",
+        "anchor_type": "external_website",
+        "theme": "github",
         "site": "https://www.github.com/LombardoCode/shortify",
         "text": "pages.projects.type.github"
       }
@@ -42,7 +69,7 @@
     "technologies": ["HTML", "CSS", "JavaScript", "Vue.js", "Laravel", "TailwindCSS"]
   },
   {
-    "flipped": false,
+    "flipped": true,
     "title": "OpenChat",
     "body": "pages.projects.projects_section.openchat.body",
     "cover": "projects/openchat/cover.jpg",
@@ -50,12 +77,14 @@
     "textColor": "text-black",
     "urls": [
       {
-        "type": "website",
+        "anchor_type": "external_website",
+        "theme": "website",
         "site": "http://www.openchat.epizy.com/",
         "text": "pages.projects.type.website"
       },
       {
-        "type": "github",
+        "anchor_type": "external_website",
+        "theme": "github",
         "site": "https://www.github.com/LombardoCode/openchat",
         "text": "pages.projects.type.github"
       }
@@ -63,7 +92,7 @@
     "technologies": ["HTML", "CSS", "JavaScript", "React.js", "Laravel", "BootstrapCSS", "Pusher"]
   },
   {
-    "flipped": true,
+    "flipped": false,
     "title": "DiLombardo",
     "body": "pages.projects.projects_section.dilombardo.body",
     "cover": "projects/dilombardo/cover.jpg",
@@ -71,12 +100,14 @@
     "textColor": "text-white",
     "urls": [
       {
-        "type": "website",
+        "anchor_type": "external_website",
+        "theme": "website",
         "site": "https://dilombardo.herokuapp.com/",
         "text": "pages.projects.type.website"
       },
       {
-        "type": "github",
+        "anchor_type": "external_website",
+        "theme": "github",
         "site": "https://www.github.com/LombardoCode/dilombardo",
         "text": "pages.projects.type.github"
       }
@@ -84,7 +115,7 @@
     "technologies": ["HTML", "CSS", "JavaScript"]
   },
   {
-    "flipped": false,
+    "flipped": true,
     "title": "Colorless",
     "body": "pages.projects.projects_section.colorless.body",
     "cover": "projects/colorless/cover.jpg",
@@ -92,16 +123,34 @@
     "textColor": "text-white",
     "urls": [
       {
-        "type": "website",
+        "anchor_type": "external_website",
+        "theme": "website",
         "site": "https://www.github.com/LombardoCode/Colorless",
         "text": "pages.projects.type.download"
       },
       {
-        "type": "github",
+        "anchor_type": "external_website",
+        "theme": "github",
         "site": "https://www.github.com/LombardoCode/Colorless",
         "text": "pages.projects.type.github"
       }
     ],
     "technologies": ["GDScript"]
+  },
+  {
+    "flipped": false,
+    "title": "Frontend Mentor",
+    "body": "pages.projects.projects_section.frontend_mentor.body",
+    "cover": "projects/colorless/cover.jpg",
+    "backgroundColor": "bg-project-frontendmentor",
+    "textColor": "text-white",
+    "urls": [
+      {
+        "anchor_type": "nuxt_link",
+        "theme": "website",
+        "site": "frontend-mentor",
+        "text": "pages.projects.type.website"
+      }
+    ]
   }
 ]

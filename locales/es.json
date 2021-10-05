@@ -13,11 +13,14 @@
       "title": "Proyectos personales",
       "developed_on": "Desarrollador en:",
       "type": {
-        "website": "Sitio web",
+        "website": "Visitar",
         "github": "Github",
         "download": "Descargar"
       },
       "projects_section": {
+        "portfolio": {
+          "body": "Sitio web donde incluyo mi información y proyectos que he realizado."
+        },
         "devsoverflow": {
           "body": "DevsOverflow es un sitio de preguntas y respuestas dirigido exclusivamente para programadores y aficionados al mundo de TI."
         },
@@ -29,6 +32,9 @@
         },
         "dilombardo": {
           "body": "DiLombardo es un sitio web con temática de restaurante."
+        },
+        "frontend_mentor": {
+          "body": "Colección de retos de front-end que he realizado tomandos de Frontend Mentor."
         },
         "colorless": {
           "body": "Colorless es un videojuego de plataformas 2D. Explora 30 niveles retadores y ayuda a Cuby a conseguir todas las tonalidades de su cuerpo. Disponible para Linux, MacOS y Windows."
