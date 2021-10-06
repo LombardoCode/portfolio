@@ -45,9 +45,9 @@
         "frontend_challenges": {
           "title": "Retos Frontend",
           "body": "Colección de retos de front-end que he realizado.",
-          "projects": {
-            "job_listing": {
-              "title": "Job listing with filtering",
+          "projects_section": {
+            "job_listings_with_filtering": {
+              "title": "Ofertas de trabajo con selección de filtros",
               "body": "Sitio web de ofertas de trabajo con selección de filtros."
             }
           }

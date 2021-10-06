@@ -21,6 +21,12 @@ export default {
     return {
       projects: projects_data
     }
+  },
+  nuxtI18n: {
+    paths: {
+      es: '/proyectos/retos_frontend',
+      en: '/projects/frontend_challenges'
+    }
   }
 }
 </script>

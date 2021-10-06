@@ -45,9 +45,9 @@
         "frontend_challenges": {
           "title": "Frontend Challenges",
           "body": "Collection of front-end challenges that I've done.",
-          "projects": {
-            "job_listing": {
-              "title": "Job listing with filtering",
+          "projects_section": {
+            "job_listings_with_filtering": {
+              "title": "Job listings with filtering",
               "body": "Job offering website with filtering selection."
             }
           }

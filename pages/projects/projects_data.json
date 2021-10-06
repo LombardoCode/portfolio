@@ -148,7 +148,7 @@
       {
         "anchor_type": "nuxt_link",
         "theme": "website",
-        "site": "frontend-challenges",
+        "site": "projects-frontend_challenges",
         "text": "pages.projects.type.website"
       }
     ]

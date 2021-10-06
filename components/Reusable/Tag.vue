@@ -24,7 +24,7 @@
         :class="{
           'bg-blue-700 hover:bg-blue-800' : ['website'].indexOf(url.theme) > -1,
         }"
-        :to="localePath('/projects/frontend_challenges')"
+        :to="localePath(url.site)"
       >
         <span v-if="['website'].indexOf(url.theme) > -1">
           <i class="fas fa-globe"></i>

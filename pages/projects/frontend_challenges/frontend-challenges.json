@@ -1,8 +1,8 @@
 [
   {
     "flipped": false,
-    "translated_title": "pages.projects.projects_section.frontend_challenges.projects_section.job_listing.title",
-    "body": "pages.projects.projects_section.frontend_challenges.projects_section.job_listing.body",
+    "title": "pages.projects.projects_section.frontend_challenges.projects_section.job_listings_with_filtering.title",
+    "body": "pages.projects.projects_section.frontend_challenges.projects_section.job_listings_with_filtering.body",
     "cover": "projects/devsoverflow/cover.jpg",
     "backgroundColor": "bg-project-portfolio",
     "textColor": "text-white",
@@ -10,16 +10,16 @@
       {
         "anchor_type": "external_website",
         "theme": "website",
-        "site": "http://lombardo.dev/",
+        "site": "https://job-listings-with-filtering.herokuapp.com/",
         "text": "pages.projects.type.website"
       },
       {
         "anchor_type": "external_website",
         "theme": "github",
-        "site": "https://www.github.com/LombardoCode/portfolio",
+        "site": "https://github.com/LombardoCode/job-listings-with-filtering",
         "text": "pages.projects.type.github"
       }
     ],
-    "technologies": ["HTML", "CSS", "JavaScript", "Vue.js (Nuxt.js)", "TailwindCSS", "SASS"]
+    "technologies": ["HTML", "CSS", "JavaScript", "Vue.js", "SASS"]
   }
 ]
