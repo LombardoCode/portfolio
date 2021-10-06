@@ -19,25 +19,38 @@
       },
       "projects_section": {
         "portfolio": {
+          "title": "Portfolio",
           "body": "Sitio web donde incluyo mi información y proyectos que he realizado."
         },
         "devsoverflow": {
+          "title": "DevsOverflow",
           "body": "DevsOverflow es un sitio de preguntas y respuestas dirigido exclusivamente para programadores y aficionados al mundo de TI."
         },
         "shortify": {
+          "title": "shortify",
           "body": "Shortify es un acortador de URLs, permitiendo hacer las URLs más amigables y más compartibles."
         },
         "openchat": {
+          "title": "OpenChat",
           "body": "OpenChat es un sitio de chats en línea en tiempo real."
         },
         "dilombardo": {
+          "title": "DiLombardo",
           "body": "DiLombardo es un sitio web con temática de restaurante."
         },
-        "frontend_mentor": {
-          "body": "Colección de retos de front-end que he realizado tomandos de Frontend Mentor."
-        },
         "colorless": {
+          "title": "Colorless",
           "body": "Colorless es un videojuego de plataformas 2D. Explora 30 niveles retadores y ayuda a Cuby a conseguir todas las tonalidades de su cuerpo. Disponible para Linux, MacOS y Windows."
+        },
+        "frontend_challenges": {
+          "title": "Retos Frontend",
+          "body": "Colección de retos de front-end que he realizado.",
+          "projects": {
+            "job_listing": {
+              "title": "Job listing with filtering",
+              "body": "Sitio web de ofertas de trabajo con selección de filtros."
+            }
+          }
         }
       }
     },

@@ -10,7 +10,7 @@
         </div>
         <div class="project-desc-wrapper flex-1" :class="{'lg:ml-10': !project.flipped}">
           <div id="title-and-body-wrapper" :class="project.textColor">
-            <h3 class="roboto-condensed font-bold text-5xl leading-tight mb-3">{{ project.title }}</h3>
+            <h3 class="roboto-condensed font-bold text-5xl leading-tight mb-3">{{ $t(project.title) }}</h3>
             <p class="roboto-condensed font-normal text-2xl mb-5">{{ $t(project.body) }}</p>
           </div>
           <div class="urls flex flex-wrap mb-4">

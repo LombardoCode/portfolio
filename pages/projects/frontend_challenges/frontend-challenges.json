@@ -1,0 +1,25 @@
+[
+  {
+    "flipped": false,
+    "translated_title": "pages.projects.projects_section.frontend_challenges.projects_section.job_listing.title",
+    "body": "pages.projects.projects_section.frontend_challenges.projects_section.job_listing.body",
+    "cover": "projects/devsoverflow/cover.jpg",
+    "backgroundColor": "bg-project-portfolio",
+    "textColor": "text-white",
+    "urls": [
+      {
+        "anchor_type": "external_website",
+        "theme": "website",
+        "site": "http://lombardo.dev/",
+        "text": "pages.projects.type.website"
+      },
+      {
+        "anchor_type": "external_website",
+        "theme": "github",
+        "site": "https://www.github.com/LombardoCode/portfolio",
+        "text": "pages.projects.type.github"
+      }
+    ],
+    "technologies": ["HTML", "CSS", "JavaScript", "Vue.js (Nuxt.js)", "TailwindCSS", "SASS"]
+  }
+]

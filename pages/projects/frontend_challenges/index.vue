@@ -15,15 +15,8 @@
 </template>
 
 <script>
-import projects_data from './projects_data.json';
+import projects_data from './frontend-challenges.json';
 export default {
-  name: 'projects',
-  nuxtI18n: {
-    paths: {
-      es: '/proyectos',
-      en: '/projects'
-    }
-  },
   data() {
     return {
       projects: projects_data

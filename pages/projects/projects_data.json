@@ -1,7 +1,7 @@
 [
   {
     "flipped": false,
-    "title": "Portfolio",
+    "title": "pages.projects.projects_section.portfolio.title",
     "body": "pages.projects.projects_section.portfolio.body",
     "cover": "projects/devsoverflow/cover.jpg",
     "backgroundColor": "bg-project-portfolio",
@@ -24,7 +24,7 @@
   },
   {
     "flipped": true,
-    "title": "DevsOverflow",
+    "title": "pages.projects.projects_section.devsoverflow.title",
     "body": "pages.projects.projects_section.devsoverflow.body",
     "cover": "projects/devsoverflow/cover.jpg",
     "backgroundColor": "bg-white",
@@ -47,7 +47,7 @@
   },
   {
     "flipped": false,
-    "title": "shortify",
+    "title": "pages.projects.projects_section.shortify.title",
     "body": "pages.projects.projects_section.shortify.body",
     "cover": "projects/shortify/cover.jpg",
     "backgroundColor": "bg-project-shortify",
@@ -70,7 +70,7 @@
   },
   {
     "flipped": true,
-    "title": "OpenChat",
+    "title": "pages.projects.projects_section.openchat.title",
     "body": "pages.projects.projects_section.openchat.body",
     "cover": "projects/openchat/cover.jpg",
     "backgroundColor": "bg-gray-300",
@@ -93,7 +93,7 @@
   },
   {
     "flipped": false,
-    "title": "DiLombardo",
+    "title": "pages.projects.projects_section.dilombardo.title",
     "body": "pages.projects.projects_section.dilombardo.body",
     "cover": "projects/dilombardo/cover.jpg",
     "backgroundColor": "bg-black",
@@ -116,7 +116,7 @@
   },
   {
     "flipped": true,
-    "title": "Colorless",
+    "title": "pages.projects.projects_section.colorless.title",
     "body": "pages.projects.projects_section.colorless.body",
     "cover": "projects/colorless/cover.jpg",
     "backgroundColor": "bg-project-colorless",
@@ -139,8 +139,8 @@
   },
   {
     "flipped": false,
-    "title": "Frontend Mentor",
-    "body": "pages.projects.projects_section.frontend_mentor.body",
+    "title": "pages.projects.projects_section.frontend_challenges.title",
+    "body": "pages.projects.projects_section.frontend_challenges.body",
     "cover": "projects/colorless/cover.jpg",
     "backgroundColor": "bg-project-frontendmentor",
     "textColor": "text-white",
@@ -148,7 +148,7 @@
       {
         "anchor_type": "nuxt_link",
         "theme": "website",
-        "site": "frontend-mentor",
+        "site": "frontend-challenges",
         "text": "pages.projects.type.website"
       }
     ]

@@ -19,25 +19,38 @@
       },
       "projects_section": {
         "portfolio": {
+          "title": "Portfolio",
           "body": "Website where I include information about myself and my projects that I've done."
         },
         "devsoverflow": {
+          "title": "DevsOverflow",
           "body": "DevsOverflow it's a Q&A website for programmers and people in the IT industry."
         },
         "shortify": {
+          "title": "shortify",
           "body": "Shortify is a URL shortener, making URLs friendlier and sharable."
         },
         "openchat": {
+          "title": "OpenChat",
           "body": "OpenChat it's a chat website in real-time."
         },
         "dilombardo": {
+          "title": "DiLombardo",
           "body": "DiLombardo it's a restaurant-themed website."
         },
-        "frontend_mentor": {
-          "body": "Collection of front-end challenges that I've done taken from Frontend Mentor."
-        },
         "colorless": {
+          "title": "Colorless",
           "body": "Colorless it's a 2D platform videogame. Explore 30 challenging levels and help Cuby to get all the skins of his body. Available for Linux, MacOS and Windows."
+        },
+        "frontend_challenges": {
+          "title": "Frontend Challenges",
+          "body": "Collection of front-end challenges that I've done.",
+          "projects": {
+            "job_listing": {
+              "title": "Job listing with filtering",
+              "body": "Job offering website with filtering selection."
+            }
+          }
         }
       }
     },
