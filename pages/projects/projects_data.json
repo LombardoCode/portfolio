@@ -141,7 +141,7 @@
     "flipped": false,
     "title": "pages.projects.projects_section.frontend_challenges.title",
     "body": "pages.projects.projects_section.frontend_challenges.body",
-    "cover": "projects/colorless/cover.jpg",
+    "cover": "projects/frontend/cover.jpg",
     "backgroundColor": "bg-project-frontendmentor",
     "textColor": "text-white",
     "urls": [
