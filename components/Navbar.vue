@@ -1,10 +1,15 @@
 <template>
   <div class="select-none z-20" :class="classesNavbar">
     <div class="container mx-auto">
-      <div class="flex justify-between items-center text-white py-3">
-        <span>Logo</span>
-        <nav>
-          <ul class="flex items-center">
+      <div class="flex flex-col lg:flex-row justify-between text-white py-3">
+        <div class="flex justify-between items-center">
+          <span>Logo</span>
+          <div id="toggler" class="lg:hidden px-4 py-2 rounded-lg border-2 border-white transition-all duration-200 hover:bg-white hover:text-black cursor-pointer" @click="toggleNavbar()">
+            <i class="fas fa-bars text-3xl"></i>
+          </div>
+        </div>
+        <nav class="lg:block" :class="{'hidden': !menu.mostrar}">
+          <ul class="flex flex-col lg:flex-row items-center w-full">
             <NavbarItem location="index" lang_attr="navbar.home"/>
             <NavbarItem location="projects" lang_attr="navbar.proyects"/>
             <NavbarItem location="cv" text="CV"/>
@@ -23,6 +28,19 @@ export default {
     backgroundColor: {
       type: String,
       default: ''
+    }
+  },
+  data() {
+    return {
+      menu: {
+        mostrar: false
+      }
+    }
+  },
+  methods: {
+    toggleNavbar() {
+      this.menu.mostrar = !this.menu.mostrar;
+      console.log(this.menu.mostrar);
     }
   },
   computed: {

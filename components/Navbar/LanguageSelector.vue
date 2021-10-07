@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative inline-block w-44 py-3 transition-all duration-200 hover:bg-white hover:text-black rounded-full ml-3 cursor-pointer z-10"
+    class="w-full relative inline-block lg:w-44 py-3 transition-all duration-200 hover:bg-white hover:text-black rounded-full ml-3 cursor-pointer z-10"
     @click="dropdown.languages = !dropdown.languages"
   >
     <div class="flex justify-center items-center relative">
