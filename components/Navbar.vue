@@ -5,10 +5,10 @@
         <div class="flex justify-between items-center">
           <span>Logo</span>
           <div id="toggler" class="lg:hidden px-4 py-2 rounded-lg border-2 border-white transition-all duration-200 hover:bg-white hover:text-black cursor-pointer" @click="toggleNavbar()">
-            <i class="fas fa-bars text-3xl"></i>
+            <i class="fas fa-bars text-2xl"></i>
           </div>
         </div>
-        <nav class="lg:block" :class="{'hidden': !menu.mostrar}">
+        <nav class="lg:block mt-3 lg:mt-0" :class="{'hidden': !menu.mostrar}">
           <ul class="flex flex-col lg:flex-row items-center w-full">
             <NavbarItem location="index" lang_attr="navbar.home"/>
             <NavbarItem location="projects" lang_attr="navbar.proyects"/>
@@ -40,7 +40,6 @@ export default {
   methods: {
     toggleNavbar() {
       this.menu.mostrar = !this.menu.mostrar;
-      console.log(this.menu.mostrar);
     }
   },
   computed: {

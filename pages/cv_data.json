@@ -63,6 +63,7 @@
         {
           "heading_1": "pages.cv.right_side[0].sub_items[0].heading_1",
           "heading_2": "pages.cv.right_side[0].sub_items[0].heading_2",
+          "location": "pages.cv.right_side[0].sub_items[0].location",
           "heading_3": [
             "pages.cv.right_side[0].sub_items[0].heading_3[0]",
             "pages.cv.right_side[0].sub_items[0].heading_3[1]"
@@ -71,6 +72,7 @@
         {
           "heading_1": "pages.cv.right_side[0].sub_items[1].heading_1",
           "heading_2": "pages.cv.right_side[0].sub_items[1].heading_2",
+          "location": "pages.cv.right_side[0].sub_items[0].location",
           "heading_3": [
             "pages.cv.right_side[0].sub_items[1].heading_3[0]"
           ]

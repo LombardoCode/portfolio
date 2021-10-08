@@ -116,15 +116,17 @@
           "sub_items": [
             {
               "heading_1": "Ayudante general",
-              "heading_2": "Servicio Moreno Car Wash | FEB 2014 - JUL 2018",
+              "heading_2": "Servicio Moreno Car Wash | FEB 2014 - ACT",
+              "location": "Av. Pablo Livas 7020, Santa María, 67190 Guadalupe, N.L. — TEL (81) - 83 93 39 99",
               "heading_3": [
                 "- Recibir material de proveedores",
-                "- Lavado, engrasado y aspirado de los vehículos"
+                "- Lavado, engrasado y limpieza interna de los vehículos"
               ]
             },
             {
               "heading_1": "Colaborador",
               "heading_2": "Zihuame Mochilla | SEP 2018 - MAR 2019",
+              "location": "C. Julián Villagrán 116, Centro, 64000 Monterrey, N.L. — TEL (81) - 83 44 43 00",
               "heading_3": [
                 "- Recaudación de material para proyectos sociales"
               ]
@@ -153,8 +155,8 @@
             "BootstrapCSS, TailwindCSS",
             "HTML, CSS, JavaScript, PHP, GDScript, SQL",
             "Vue.js, Laravel",
-            "MySQL/MariaDB Databases",
-            "Linux and Windows"
+            "Bases de datos MySQL/MariaDB",
+            "Linux y Windows"
           ]
         },
 

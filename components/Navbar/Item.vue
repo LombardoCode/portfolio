@@ -1,5 +1,5 @@
 <template>
-  <li class="w-full">
+  <li class="w-full lg:w-auto">
     <nuxt-link
       :to="localePath(location)"
       class="w-full lg:w-auto text-center lg:text-left inline-block px-7 py-5 lg:py-3 transition-all duration-200 hover:bg-white hover:text-black rounded-full lg:ml-3 mb-3 lg:mb-0"

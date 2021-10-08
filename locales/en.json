@@ -116,7 +116,8 @@
           "sub_items": [
             {
               "heading_1": "General assistant",
-              "heading_2": "Servicio Moreno Car Wash | FEB 2014 - JUL 2018",
+              "heading_2": "Servicio Moreno Car Wash | FEB 2014 - ACT",
+              "location": "Av. Pablo Livas 7020, Santa María, 67190 Guadalupe, N.L. — TEL (81) - 83 93 39 99",
               "heading_3": [
                 "- Receive material from suppliers",
                 "- Washing, oiling and interior-cleaning of the vehicles"
@@ -124,6 +125,7 @@
             },
             {
               "heading_1": "Collaborator",
+              "location": "C. Julián Villagrán 116, Centro, 64000 Monterrey, N.L. — TEL (81) - 83 44 43 00",
               "heading_2": "Zihuame Mochilla | SEP 2018 - MAR 2019",
               "heading_3": [
                 "- Collect material for social projects"

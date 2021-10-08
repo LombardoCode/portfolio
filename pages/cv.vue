@@ -47,7 +47,7 @@ export default {
   @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400&display=swap')
   @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap')
   @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800;900&display=swap')
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap')
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap')
 
   $nunito: 'Nunito Sans', 'Arial', 'sans-serif'
   $oswald: 'Oswald', 'Arial', 'sans-serif'

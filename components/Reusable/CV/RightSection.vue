@@ -18,6 +18,12 @@
             </h3>
           </div>
           <h4 class="pl-6 text-2xl font-medium roboto">{{ $t(sub1_item.heading_2) }}</h4>
+          <h4
+            v-if="sub1_item.location"
+            class="pl-6 text-xl font-normal roboto mb-1"
+          >
+            {{ $t(sub1_item.location) }}
+          </h4>
           <ul class="pl-6 text-xl roboto" v-for="(sub2_item, index) in sub1_item.heading_3" :key="index">
             <li class="pl-4">{{ $t(sub2_item) }}</li>
           </ul>
