@@ -11,6 +11,7 @@
         </ReusableProjectInList>
       </div>
     </div>
+    <ReusableFooter />
   </div>
 </template>
 

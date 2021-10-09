@@ -82,7 +82,7 @@
           "title": "Website",
           "items": [
             {
-              "text": "https://www.lombardo.dev/"
+              "text": "https://www.lombardomr.dev/"
             }
           ]
         },
@@ -91,7 +91,7 @@
           "title": "Projects portfolio",
           "items": [
             {
-              "text": "https://www.lombardo.dev/en/projects"
+              "text": "https://www.lombardomr.dev/en/projects"
             },
             {
               "text": "https://www.github.com/LombardoCode/"
@@ -139,11 +139,13 @@
           "sub_items": [
             {
               "heading_1": "Universidad TecMilenio | AUG 2017 - JUN 2021.",
-              "heading_2": "Administrative Computation Engineering"
+              "heading_2": "Administrative Computation Engineering",
+              "location": "Av. San Sebastián 1407, Valle de Los Reyes, 67180 Guadalupe, N.L. — TEL (81) - 82 32 88 00"
             },
             {
               "heading_1": "Quick Learning | AUG 2010 - AUG 2012",
-              "heading_2": "English school"
+              "heading_2": "English school",
+              "location": "Av. Miguel Alemán 4323, Linda Vista, 67130 Guadalupe, N.L. — TEL (81) - 83 87 29 00"
             }
           ]
         },
@@ -152,9 +154,9 @@
           "title": "Technical skills",
           "list": [
             "Advanced English",
-            "BootstrapCSS, TailwindCSS",
-            "HTML, CSS, JavaScript, PHP, GDScript, SQL",
-            "Vue.js, Laravel",
+            "BootstrapCSS and TailwindCSS",
+            "HTML, CSS, JavaScript, PHP, GDScript and SQL",
+            "Vue.js and Laravel",
             "MySQL/MariaDB Databases",
             "Linux and Windows"
           ]
@@ -173,7 +175,7 @@
           "sub_items": [
             {
               "heading_1": "Certification of excellence",
-              "heading_2": "Quick Learning (English)"
+              "heading_2": "Quick Learning (English school)"
             }
           ]
         }
