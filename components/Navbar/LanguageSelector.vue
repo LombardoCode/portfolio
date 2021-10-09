@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full relative inline-block lg:w-44 py-5 lg:py-3 transition-all duration-200 hover:bg-white hover:text-black rounded-full ml-3 cursor-pointer z-10"
+    class="w-full select-none roboto font-medium relative inline-block lg:w-44 py-5 lg:py-3 transition-all duration-200 hover:bg-white hover:text-black rounded-full ml-3 cursor-pointer z-10"
     @click="dropdown.languages = !dropdown.languages"
   >
     <div class="flex justify-center items-center relative">
@@ -43,9 +43,15 @@ export default {
 }
 </script>
 
-<style scoped>
-  #languages-dropdown {
-    top: 140%;
-    width: 100%;
-  }
+<style lang="sass" scoped>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap')
+
+  $roboto: 'Roboto', 'Arial', 'sans-serif'
+
+  .roboto
+    font-family: $roboto
+
+  #languages-dropdown
+    top: 140%
+    width: 100%
 </style>
