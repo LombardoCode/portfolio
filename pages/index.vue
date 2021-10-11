@@ -1,8 +1,8 @@
 <template>
-  <div class="bg-gradient-to-t from-blue-1000 to-blue-1100">
+  <div class="bg-gradient-to-t from-black to-black">
     <Navbar :fixed_navbar="true"/>
     <ReusableContainer :top_spacing="false">
-      <Tutorial />
+      <Introduction />
     </ReusableContainer>
   </div>
 </template>

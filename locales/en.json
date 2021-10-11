@@ -6,8 +6,7 @@
   },
   "pages": {
     "index": {
-      "welcome": "Welcome",
-      "message": "This message is written in English."
+      "welcome_html": "<span>Hello, my name is <span class='text-blue-600'>Lombardo </span> and I'm a <span class='text-blue-600'>Web Developer</span>.</span>"
     },
     "projects": {
       "title": "Personal projects",

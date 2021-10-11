@@ -11,7 +11,7 @@
           v-for="lang in $i18n.locales"
           :key="lang.code"
           :value="lang.code"
-          class="text-center bg-black text-white hover:bg-white hover:text-black transition-all duration-200"
+          class="text-center bg-black text-white hover:bg-white hover:text-black transition-all duration-200 py-3 lg:py-0"
           @click="dropdown.languages = false"
         >
           <nuxt-link
