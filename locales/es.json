@@ -6,7 +6,7 @@
   },
   "pages": {
     "index": {
-      "welcome_html": "<span>Hola, mi nombre es <span class='text-blue-600'>Lombardo </span> y soy <span class='text-blue-600'>Desarrollador Web</span>.</span>"
+      "welcome_html": "<span>Hola, mi nombre es <span class='text-blue-600 font-bold'>Lombardo </span> y soy <span class='text-blue-600 font-bold'>Desarrollador Web</span>.</span>"
     },
     "projects": {
       "title": "Proyectos personales",
