@@ -6,7 +6,50 @@
   },
   "pages": {
     "index": {
-      "welcome_html": "<span>Hola, mi nombre es <span class='text-blue-600 font-bold'>Lombardo </span> y soy <span class='text-blue-600 font-bold'>Desarrollador Web</span>.</span>"
+      "welcome_html": "<span>Hola, mi nombre es <span class='text-blue-600 font-bold'>Lombardo </span> y soy <span class='text-blue-600 font-bold'>Desarrollador Web</span>.</span>",
+      "buttons": {
+        "about_me": "Sobre mi",
+        "my_projects": "Mis proyectos"
+      }
+    },
+    "about": {
+      "about_me": "Acerca de mi",
+      "sections": [
+        {
+          "title": "Información personal",
+          "body": {
+            "text_1": "Mi nombre es Lombardo Moreno Rodríguez, tengo {0} años y soy Ingeniero en Computación Administrativa y radico en Guadalupe, Nuevo León, México."
+          }
+        },
+        {
+          "title": "Metas y objetivos",
+          "body": {
+            "text_1": "Mi meta es poder ayudar a la sociedad del mañana a través de soluciones innovadoras que faciliten la vida del ser humano.",
+            "text_2": "Mi objetivo es siempre estar preparandome y aprendiendo sobre tecnología para poder satisfacer las necesidades del mañana."
+          }
+        },
+        {
+          "title": "Trayectoria y conocimientos",
+          "body": {
+            "text_1": "Mi primer encuentro con la programación fué a los 12 años de edad codificando videojuegos; pero recién en el año 2018 comencé a enfocarme al área del desarrollo web ({1} desde ahora), tengo experiencia codificando tanto en el Front-end como en el Back-end. He trabajado con las siguientes tecnologías y herramientas:"
+          },
+          "list": [
+            "Inglés avanzado",
+            "HTML, CSS, JavaScript, PHP, GDScript y SQL",
+            "Vue.js y Laravel",
+            "Bases de datos MySQL/MariaDB",
+            "BootstrapCSS y TailwindCSS",
+            "Linux y Windows "
+          ]
+        },
+        {
+          "title": "Portfolio y datos de contacto",
+          "body": {
+            "text_1": "Dentro de mi portfolio podrá explorar los proyectos que he realizado.",
+            "text_2": "Puede comunicarse conmigo a través de los medios de contacto que puede encontrar en mi CV."
+          }
+        }
+      ]
     },
     "projects": {
       "title": "Proyectos personales",

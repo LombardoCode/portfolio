@@ -26,8 +26,8 @@
           class="fnt_raleway w-full md:absolute mt-8 transform duration-500"
           :class="{'hidden': !buttons_visibility, 'flex flex-col md:flex-row md:justify-center md:translate-y-20 buttons_behaviour': buttons_visibility}"
         >
-          <nuxt-link :to="localePath('about')" class="bg-blue-700 hover:bg-blue-900 duration-200 text-white px-10 py-6 md:py-4 md:mr-2 mb-6 md:mb-0 rounded-full">About me</nuxt-link>
-          <nuxt-link :to="localePath('projects')" class="bg-blue-700 hover:bg-blue-900 duration-200 text-white px-10 py-6 md:py-4 md:ml-2 rounded-full">My Projects</nuxt-link>
+          <nuxt-link :to="localePath('about')" class="bg-blue-700 hover:bg-blue-900 duration-200 text-white px-10 py-6 md:py-4 md:mr-2 mb-6 md:mb-0 rounded-full">{{ $t('pages.index.buttons.about_me') }}</nuxt-link>
+          <nuxt-link :to="localePath('projects')" class="bg-blue-700 hover:bg-blue-900 duration-200 text-white px-10 py-6 md:py-4 md:ml-2 rounded-full">{{ $t('pages.index.buttons.my_projects') }}</nuxt-link>
         </div>
       </div>
     </div>
