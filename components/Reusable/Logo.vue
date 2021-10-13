@@ -1,5 +1,9 @@
 <template>
-  <span class="inconsolata font-medium select-none">{{ logo_text }}</span>
+  <span class="inconsolata font-medium select-none">
+    <nuxt-link :to="localePath('index')">
+      {{ logo_text }}
+    </nuxt-link>
+  </span>
 </template>
 
 <script>

@@ -10,7 +10,7 @@
         </div>
         <nav class="lg:block mt-3 lg:mt-0" :class="{'hidden': !menu.mostrar}">
           <ul class="flex flex-col lg:flex-row items-center w-full">
-            <NavbarItem location="index" lang_attr="navbar.home"/>
+            <NavbarItem location="about" lang_attr="navbar.about"/>
             <NavbarItem location="projects" lang_attr="navbar.proyects"/>
             <NavbarItem location="cv" text="CV"/>
             <NavbarLanguageSelector lang_attr="navbar.language"/>
