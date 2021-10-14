@@ -4,10 +4,10 @@
     <ReusableContainer :top_spacing="false">
       <div class="mt-12">
         <div class="grid grid-cols-12 gap-8">
-          <div class="col-span-3 flex justify-center items-start overflow-hidden">
-            <img src="~/assets/images/about/me.jpg">
+          <div class="col-span-12 lg:col-span-3 flex justify-center items-start overflow-hidden">
+            <img src="~/assets/images/about/me.jpg" class="rounded-full">
           </div>
-          <div class="col-span-9">
+          <div class="col-span-12 lg:col-span-9">
             <h1 class="fnt_raleway text-4xl font-bold uppercase">{{ $t('pages.about.about_me') }}</h1>
             <div class="text-xl">
               <section class="mt-4 mb-8">
@@ -22,7 +22,7 @@
               <section class="mt-4 mb-8">
                 <h2 class="fnt_raleway text-2xl mb-1">{{ $t('pages.about.sections[2].title') }}</h2>
                 <p class="text-lg">{{ $t('pages.about.sections[2].body.text_1') }}</p>
-                <ul>
+                <ul class="text-lg mt-2">
                   <li>
                     ● {{ $t('pages.about.sections[2].list[0]') }}
                   </li>
