@@ -8,7 +8,7 @@
           <ReusableLogo class="text-5xl" />
         </div>
         <ul class="w-full lg:w-auto px-10 lg:px-0 flex flex-col items-center">
-          <ReusableFooterItem location="index" lang_attr="navbar.home"/>
+          <ReusableFooterItem location="index" lang_attr="navbar.about"/>
           <ReusableFooterItem location="projects" lang_attr="navbar.proyects"/>
           <ReusableFooterItem location="cv" text="CV"/>
         </ul>

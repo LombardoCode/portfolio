@@ -29,7 +29,7 @@
         <span v-if="['website'].indexOf(url.theme) > -1">
           <i class="fas fa-globe"></i>
         </span>
-        Nuxt Link
+          {{ $t(url.text) }}
       </nuxt-link>
     </div>
     <div class="roboto-condensed font-normal mb-2" v-if="technology">
