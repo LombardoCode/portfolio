@@ -13,40 +13,40 @@
       }
     },
     "about": {
-      "about_me": "Acerca de mi",
+      "about_me": "About me",
       "sections": [
         {
-          "title": "Información personal",
+          "title": "Personal information",
           "body": {
-            "text_1": "Mi nombre es Lombardo Moreno Rodríguez, tengo {0} años y soy Ingeniero en Computación Administrativa y radico en Guadalupe, Nuevo León, México."
+            "text_1": "My name is Lombardo Moreno Rodríguez, I'm 23 years old and I'm a Administrative Computation Engineer who lives in Guadalupe, Nuevo León, México."
           }
         },
         {
-          "title": "Metas y objetivos",
+          "title": "Goals and objectives",
           "body": {
-            "text_1": "Mi meta es poder ayudar a la sociedad del mañana a través de soluciones innovadoras que faciliten la vida del ser humano.",
-            "text_2": "Mi objetivo es siempre estar preparandome y aprendiendo sobre tecnología para poder satisfacer las necesidades del mañana."
+            "text_1": "My goal is to help tomorrow's society though innovative solutions that nakes human life easier.",
+            "text_2": "My objective is to be always be prepared and learn about technology to satisfy the needs of tomorrow."
           }
         },
         {
-          "title": "Trayectoria y conocimientos",
+          "title": "Personal path and knowledge",
           "body": {
-            "text_1": "Mi primer encuentro con la programación fué a los 12 años de edad codificando videojuegos; pero recién en el año 2018 comencé a enfocarme al área del desarrollo web ({1} desde ahora), tengo experiencia codificando tanto en el Front-end como en el Back-end. He trabajado con las siguientes tecnologías y herramientas:"
+            "text_1": "My first approach with programming was when I was 12 years old when I was coding videogames; but at 2018 I started focusing on the web development area (3 years from now), I have experience coding Front-end and Back-end. I have worked with the following technologies/tools:"
           },
           "list": [
-            "Inglés avanzado",
-            "HTML, CSS, JavaScript, PHP, GDScript y SQL",
-            "Vue.js y Laravel",
-            "Bases de datos MySQL/MariaDB",
-            "BootstrapCSS y TailwindCSS",
-            "Linux y Windows "
+            "Advanced English",
+            "HTML, CSS, JavaScript, PHP, GDScript and SQL",
+            "Vue.js and Laravel",
+            "MySQL/MariaDB Databases",
+            "BootstrapCSS and TailwindCSS",
+            "Linux and Windows "
           ]
         },
         {
-          "title": "Portfolio y datos de contacto",
+          "title": "Portfolio y contact information",
           "body": {
-            "text_1": "Dentro de mi portfolio podrá explorar los proyectos que he realizado.",
-            "text_2": "Puede comunicarse conmigo a través de los medios de contacto que puede encontrar en mi CV."
+            "text_1": "Inside my {portfolio} you can find the different projects that I've made.",
+            "text_2": "You can contact me through my social channels that you can find in my {cv}."
           }
         }
       ]

@@ -1,38 +1,38 @@
 {
-  "about_me": "Acerca de mi",
+  "about_me": "pages.about.about_me",
   "sections": [
     {
-      "title": "Información personal",
+      "title": "pages.about.sections[0].title",
       "body": {
-        "text_1": "Mi nombre es Lombardo Moreno Rodríguez, tengo {0} años y soy Ingeniero en Computación Administrativa y radico en Guadalupe, Nuevo León, México."
+        "text_1": "pages.about.sections[0].body.text_1"
       }
     },
     {
-      "title": "Metas y objetivos",
+      "title": "pages.about.sections[1].title",
       "body": {
-        "text_1": "Mi meta es poder ayudar a la sociedad del mañana a través de soluciones innovadoras que faciliten la vida del ser humano.",
-        "text_2": "Mi objetivo es siempre estar preparandome y aprendiendo sobre tecnología para poder satisfacer las necesidades del mañana."
+        "text_1": "pages.about.sections[1].body.text_1",
+        "text_2": "pages.about.sections[1].body.text_2"
       }
     },
     {
-      "title": "Trayectoria y conocimientos",
+      "title": "pages.about.sections[2].title",
       "body": {
-        "text_1": "Mi primer encuentro con la programación fué a los 12 años de edad codificando videojuegos; pero recién en el año 2018 comencé a enfocarme al área del desarrollo web ({1} desde ahora), tengo experiencia codificando tanto en el Front-end como en el Back-end. He trabajado con las siguientes tecnologías y herramientas:"
+        "text_1": "pages.about.sections[2].body.text_1"
       },
       "list": [
-        "Inglés avanzado",
-        "HTML, CSS, JavaScript, PHP, GDScript y SQL",
-        "Vue.js y Laravel",
-        "Bases de datos MySQL/MariaDB",
-        "BootstrapCSS y TailwindCSS",
-        "Linux y Windows "
+        "pages.about.sections[2].list[0]",
+        "pages.about.sections[2].list[1]",
+        "pages.about.sections[2].list[2]",
+        "pages.about.sections[2].list[3]",
+        "pages.about.sections[2].list[4]",
+        "pages.about.sections[2].list[5]"
       ]
     },
     {
-      "title": "Portfolio y datos de contacto",
+      "title": "pages.about.sections[3].title",
       "body": {
-        "text_1": "Dentro de mi portfolio podrá explorar los proyectos que he realizado.",
-        "text_2": "Puede comunicarse conmigo a través de los medios de contacto que puede encontrar en mi CV."
+        "text_1": "pages.about.sections[3].body.text_1",
+        "text_2": "pages.about.sections[3].body.text_2"
       }
     }
   ]

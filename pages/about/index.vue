@@ -8,20 +8,53 @@
             <img src="~/assets/images/about/me.jpg">
           </div>
           <div class="col-span-9">
-            <h1 class="fnt_raleway text-5xl font-bold uppercase">{{ about_data.about_me }}</h1>
+            <h1 class="fnt_raleway text-4xl font-bold uppercase">{{ $t('pages.about.about_me') }}</h1>
             <div class="text-xl">
-              <section
-                v-for="(section, index) in about_data.sections" :key="index"
-                class="mt-4 mb-8"
-              >
-                <h2 class="fnt_raleway text-3xl mb-1">{{ section.title }}</h2>
-                <p v-if="section.body.text_1">{{ section.body.text_1 }}</p>
-                <p v-if="section.body.text_2">{{ section.body.text_2 }}</p>
-                <ul v-if="section.list">
-                  <li v-for="(item, index) in section.list" :key="index">
-                    ● {{ item }}
+              <section class="mt-4 mb-8">
+                <h2 class="fnt_raleway text-2xl mb-1">{{ $t('pages.about.sections[0].title') }}</h2>
+                <p class="text-lg" v-html="$t('pages.about.sections[0].body.text_1')"></p>
+              </section>
+              <section class="mt-4 mb-8">
+                <h2 class="fnt_raleway text-2xl mb-1">{{ $t('pages.about.sections[1].title') }}</h2>
+                <p class="text-lg">{{ $t('pages.about.sections[1].body.text_1') }}</p>
+                <p class="text-lg">{{ $t('pages.about.sections[1].body.text_2') }}</p>
+              </section>
+              <section class="mt-4 mb-8">
+                <h2 class="fnt_raleway text-2xl mb-1">{{ $t('pages.about.sections[2].title') }}</h2>
+                <p class="text-lg">{{ $t('pages.about.sections[2].body.text_1') }}</p>
+                <ul>
+                  <li>
+                    ● {{ $t('pages.about.sections[2].list[0]') }}
+                  </li>
+                  <li>
+                    ● {{ $t('pages.about.sections[2].list[1]') }}
+                  </li>
+                  <li>
+                    ● {{ $t('pages.about.sections[2].list[2]') }}
+                  </li>
+                  <li>
+                    ● {{ $t('pages.about.sections[2].list[3]') }}
+                  </li>
+                  <li>
+                    ● {{ $t('pages.about.sections[2].list[4]') }}
+                  </li>
+                  <li>
+                    ● {{ $t('pages.about.sections[2].list[5]') }}
                   </li>
                 </ul>
+              </section>
+              <section class="mt-4 mb-8">
+                <h2 class="fnt_raleway text-2xl mb-1">{{ $t('pages.about.sections[3].title') }}</h2>
+                <i18n path="pages.about.sections[3].body.text_1" tag="p" class="text-lg">
+                  <template v-slot:portfolio>
+                    <nuxt-link :to="localePath('projects')" class="text-blue-600 font-bold underline">portfolio</nuxt-link>
+                  </template>
+                </i18n>
+                <i18n path="pages.about.sections[3].body.text_2" tag="p" class="text-lg">
+                  <template v-slot:cv>
+                    <nuxt-link :to="localePath('cv')" class="text-blue-600 font-bold underline">CV</nuxt-link>
+                  </template>
+                </i18n>
               </section>
             </div>
           </div>
@@ -35,6 +68,12 @@
 import about_data from './about_data.json';
 export default {
   name: 'about',
+  nuxtI18n: {
+    paths: {
+      es: '/acerca',
+      en: '/about'
+    }
+  },
   data() {
     return {
       about_data: about_data
