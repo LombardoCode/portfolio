@@ -4,7 +4,15 @@
     <ReusableContainer :top_spacing="false">
       <div class="relative">
         <div class="bg-gray-1000 relative">
-          <button id="download-pdf" class="fixed z-20 bg-gradient-to-br from-blue-600 to-blue-700 text-white text-xl uppercase roboto font-medium rounded-lg hover:from-blue-700 hover:to-blue-800 w-full md:w-auto mb-4 py-6 md:py-6 px-0 md:px-24 m-0 md:m-4" style="bottom: 0%; right: 0%;">{{ $t('pages.cv.download_button') }}</button>
+          <a
+            href="/archives/cv/cv_es.pdf"
+            download="Lombardo_Moreno_Rodríguez_CV"
+            id="download-pdf"
+            class="fixed z-20 bg-gradient-to-br from-blue-600 to-blue-700 text-white text-xl uppercase roboto font-medium rounded-lg hover:from-blue-700 hover:to-blue-800 w-full md:w-auto mb-4 py-6 md:py-6 px-0 md:px-24 m-0 md:m-4"
+            style="bottom: 0%; right: 0%;"
+          >
+            {{ $t('pages.cv.download_button') }}
+          </a>
           <div class="container mx-auto">
             <div id="cv">
               <div id="header-cv" class="py-10 px-10 bg-blue-800 oswald uppercase bg-blue-1000 text-white text-center">
