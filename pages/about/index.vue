@@ -12,7 +12,7 @@
             <div class="text-xl">
               <section class="mt-4 mb-8">
                 <h2 class="fnt_raleway text-2xl mb-1">{{ $t('pages.about.sections[0].title') }}</h2>
-                <p class="text-lg" v-html="$t('pages.about.sections[0].body.text_1')"></p>
+                <p class="text-lg" v-html="$t('pages.about.sections[0].body.text_1', [dynamic_data.actual_age])"></p>
               </section>
               <section class="mt-4 mb-8">
                 <h2 class="fnt_raleway text-2xl mb-1">{{ $t('pages.about.sections[1].title') }}</h2>
@@ -21,7 +21,7 @@
               </section>
               <section class="mt-4 mb-8">
                 <h2 class="fnt_raleway text-2xl mb-1">{{ $t('pages.about.sections[2].title') }}</h2>
-                <p class="text-lg">{{ $t('pages.about.sections[2].body.text_1') }}</p>
+                <p class="text-lg">{{ $t('pages.about.sections[2].body.text_1', [dynamic_data.years_ive_studied_webdev]) }}</p>
                 <ul class="text-lg mt-2">
                   <li>
                     ● {{ $t('pages.about.sections[2].list[0]') }}
@@ -76,7 +76,29 @@ export default {
   },
   data() {
     return {
-      about_data: about_data
+      about_data: about_data,
+      dynamic_data: {
+        actual_age: 23,
+        years_ive_studied_webdev: 10
+      }
+    }
+  },
+  mounted() {
+    // Calculation of my actual age and time i've studied web development
+    this.dynamic_data.actual_age = this.calculateAge("06/10/1998", Date.now());
+    this.dynamic_data.years_ive_studied_webdev = this.calculateAge("01/01/2018", Date.now());
+  },
+  methods: {
+    calculateAge (startDate, endDate) {
+      startDate = new Date(startDate);
+      endDate = new Date(endDate);
+
+      let years = endDate.getFullYear() - startDate.getFullYear();
+
+      if (endDate.getMonth() <= startDate.getMonth() && endDate.getDate() < startDate.getDate()) {
+          years--;
+      }
+      return years;
     }
   }
 }

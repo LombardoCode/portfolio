@@ -18,7 +18,7 @@
         {
           "title": "Información personal",
           "body": {
-            "text_1": "Mi nombre es <span class='text-blue-600 font-bold'>Lombardo Moreno Rodríguez</span>, tengo 23 años y soy Ingeniero en Computación Administrativa y radico en Guadalupe, Nuevo León, México."
+            "text_1": "Mi nombre es <span class='text-blue-600 font-bold'>Lombardo Moreno Rodríguez</span>, tengo {0} años y soy Ingeniero en Computación Administrativa y radico en Guadalupe, Nuevo León, México."
           }
         },
         {
@@ -31,7 +31,7 @@
         {
           "title": "Trayectoria personal y conocimientos",
           "body": {
-            "text_1": "Mi primer encuentro con la programación fué a los 12 años de edad codificando videojuegos; pero recién en el año 2018 comencé a enfocarme al área del desarrollo web (3 años desde ahora), tengo experiencia codificando tanto en el Front-end como en el Back-end. He trabajado con las siguientes tecnologías y herramientas:"
+            "text_1": "Mi primer encuentro con la programación fué a los 12 años de edad codificando videojuegos; pero recién en el año 2018 comencé a enfocarme al área del desarrollo web ({0} años desde ahora), tengo experiencia codificando tanto en el Front-end como en el Back-end. He trabajado con las siguientes tecnologías y herramientas:"
           },
           "list": [
             "Inglés avanzado",

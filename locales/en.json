@@ -18,7 +18,7 @@
         {
           "title": "Personal information",
           "body": {
-            "text_1": "My name is Lombardo Moreno Rodríguez, I'm 23 years old and I'm a Administrative Computation Engineer who lives in Guadalupe, Nuevo León, México."
+            "text_1": "My name is Lombardo Moreno Rodríguez, I'm {0} years old and I'm a Administrative Computation Engineer who lives in Guadalupe, Nuevo León, México."
           }
         },
         {
@@ -31,7 +31,7 @@
         {
           "title": "Personal path and knowledge",
           "body": {
-            "text_1": "My first approach with programming was when I was 12 years old when I was coding videogames; but at 2018 I started focusing on the web development area (3 years from now), I have experience coding Front-end and Back-end. I have worked with the following technologies/tools:"
+            "text_1": "My first approach with programming was when I was 12 years old when I was coding videogames; but at 2018 I started focusing on the web development area ({0} years from now), I have experience coding Front-end and Back-end. I have worked with the following technologies/tools:"
           },
           "list": [
             "Advanced English",
