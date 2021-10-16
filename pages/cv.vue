@@ -5,8 +5,8 @@
       <div class="relative">
         <div class="bg-gray-1000 relative">
           <a
-            href="/archives/cv/cv_es.pdf"
-            download="Lombardo_Moreno_Rodríguez_CV"
+            :href="`/archives/cv/${current_locale}/Lombardo_Moreno_Rodríguez_CV.pdf`"
+            :download="`Lombardo_Moreno_Rodríguez_CV_${current_locale}`"
             id="download-pdf"
             class="fixed z-20 bg-gradient-to-br from-blue-600 to-blue-700 text-white text-xl uppercase roboto font-medium rounded-lg hover:from-blue-700 hover:to-blue-800 w-full md:w-auto mb-4 py-6 md:py-6 px-0 md:px-24 m-0 md:m-4"
             style="bottom: 0%; right: 0%;"
@@ -45,8 +45,12 @@ export default {
   name: 'cv',
   data() {
     return {
-      cv: cv_data
+      cv: cv_data,
+      current_locale: this.$i18n.locale
     }
+  },
+  mounted() {
+    console.log(this.current_locale)
   }
 }
 </script>

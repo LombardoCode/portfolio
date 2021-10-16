@@ -96,9 +96,6 @@
         }
       }
     },
-
-
-
     "cv": {
       "heading": {
         "occupation": [
@@ -195,7 +192,7 @@
         {
           "title": "Conocimientos técnicos",
           "list": [
-            "Advanced English",
+            "Inglés avanzado",
             "BootstrapCSS y TailwindCSS",
             "HTML, CSS, JavaScript, PHP, GDScript y SQL",
             "Vue.js y Laravel",
@@ -216,7 +213,7 @@
           "title": "Reconocimientos",
           "sub_items": [
             {
-              "heading_1": "Certificado de excelencia",
+              "heading_1": "Diploma de excelencia",
               "heading_2": "Quick Learning (Escuela de inglés)"
             }
           ]
@@ -224,12 +221,5 @@
       ],
       "download_button": "Descargar PDF"
     }
-
-
-
-
-
-
-
   }
 }
