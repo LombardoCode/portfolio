@@ -1,5 +1,15 @@
 <template>
-  <div class="project-content px-4 md:px-16 lg:px-16 xl:px-0 py-24 lg:py-28 transform -translate-y-10 -mb-22 lg:-mb-14" :class="project.backgroundColor">
+  <div class="project-content px-4 md:px-16 lg:px-16 xl:px-0 py-24 lg:py-28 transform -translate-y-10 -mb-22 lg:-mb-14" :class="{
+    'bg-project-portfolio': project.project_name == 'portfolio',
+    'bg-white': project.project_name == 'devsoverflow',
+    'bg-project-shortify': project.project_name == 'shortify',
+    'bg-gray-300': project.project_name == 'openchat',
+    'bg-black': project.project_name == 'dilombardo',
+    'bg-project-colorless': project.project_name == 'colorless',
+    'bg-project-frontend_challenges': project.project_name == 'frontend_challenges',
+    'bg-project-job_listings_with_filtering': project.project_name == 'job_listings_with_filtering'
+  }">
+    <h1 class="text-white">{{ project.project }}</h1>
     <ReusableContainer :top_spacing="false">
       <div class="flex flex-col justify-between items-center" :class="{'lg:flex-row-reverse': project.flipped, 'lg:flex-row': !project.flipped}">
         <div class="image-wrapper w-full sm:w-96 px-24 sm:px-0" :class="{'lg:ml-10': project.flipped, 'lg:mr-10': !project.flipped}">

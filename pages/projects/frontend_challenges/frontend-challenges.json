@@ -1,10 +1,10 @@
 [
   {
+    "project_name": "job_listings_with_filtering",
     "flipped": false,
     "title": "pages.projects.projects_section.frontend_challenges.projects_section.job_listings_with_filtering.title",
     "body": "pages.projects.projects_section.frontend_challenges.projects_section.job_listings_with_filtering.body",
     "cover": "projects/frontend/job-listings-with-filtering/cover.jpg",
-    "backgroundColor": "bg-project-portfolio",
     "textColor": "text-white",
     "urls": [
       {

@@ -16,11 +16,9 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped>
+<style lang="sass">
   @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap')
 
-  $inconsolata: 'Inconsolata', 'Arial', 'sans-serif', 'monospace'
-
   .inconsolata
-    font-family: $inconsolata
+    font-family: 'Inconsolata', 'Arial', 'sans-serif', 'monospace'
 </style>

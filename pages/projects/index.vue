@@ -33,27 +33,21 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped>
+<style lang="sass">
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap')
   @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400&display=swap')
   @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap')
   @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap')
   @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Rubik:wght@400;500&display=swap')
 
-  $poppins: 'Poppins', 'Arial', 'sans-serif'
-  $nunito: 'Nunito Sans', 'Arial', 'sans-serif'
-  $oswald: 'Oswald', 'Arial', 'sans-serif'
-  $roboto_condensed: 'Roboto Condensed', 'Arial', 'sans-serif'
-  $rubik: 'Rubik', 'Arial', 'sans-serif'
-
   .poppins
-    font-family: $poppins
+    font-family: 'Poppins', 'Arial', 'sans-serif'
   .nunito
-    font-family: $nunito
+    font-family: 'Nunito Sans', 'Arial', 'sans-serif'
   .oswald
-    font-family: $oswald
+    font-family: 'Oswald', 'Arial', 'sans-serif'
   .roboto-cond
-    font-family: $roboto_condensed
+    font-family: 'Roboto Condensed', 'Arial', 'sans-serif'
   .rubik
-    font-family: $rubik
+    font-family: 'Rubik', 'Arial', 'sans-serif'
 </style>

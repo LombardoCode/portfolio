@@ -1,10 +1,10 @@
 module.exports = {
   purge: [
-    './components/**/*.{vue,js}',
-    './layouts/**/*.vue',
-    './pages/**/*.vue',
-    './plugins/**/*.{js,ts}',
-    './nuxt.config.{js,ts}',
+    // './components/**/*.{vue,js}',
+    // './layouts/**/*.vue',
+    // './pages/**/*.vue',
+    // './plugins/**/*.{js,ts}',
+    // './nuxt.config.{js,ts}',
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
@@ -51,7 +51,9 @@ module.exports = {
       'project-portfolio': '#001C4F',
       'project-shortify': '#001151',
       'project-colorless': '#0083BD',
-      'project-frontendmentor': '#7513D6'
+      'project-frontend_challenges': '#7513D6',
+      'project-job_listings_with_filtering': '#50A5A6'
+
     }),
     extend: {
       width: {
