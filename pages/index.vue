@@ -1,8 +1,14 @@
 <template>
   <div>
     <div id="div_video_background_hero">
-      <video id="video-hero" autoplay="true" type="video/mp4" loop="true" muted>
-        <source src="~assets/videos/index/hero.mp4">
+      <video
+        id="video-hero"
+        src="~assets/videos/index/hero.webm"
+        autoplay="true"
+        type="video/webm"
+        loop="true"
+        muted
+      >
       </video>
       <div class="absolute w-full" style="top: 0;">
         <Navbar :fixed_navbar="true"/>
