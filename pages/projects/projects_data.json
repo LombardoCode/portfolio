@@ -4,13 +4,13 @@
     "flipped": false,
     "title": "pages.projects.projects_section.portfolio.title",
     "body": "pages.projects.projects_section.portfolio.body",
-    "cover": "projects/devsoverflow/cover.jpg",
+    "cover": "projects/portfolio/cover.jpg",
     "textColor": "text-white",
     "urls": [
       {
         "anchor_type": "external_website",
         "theme": "website",
-        "site": "http://lombardo.dev/",
+        "site": "http://lombardomr.herokuapp.com/",
         "text": "pages.projects.type.website"
       },
       {

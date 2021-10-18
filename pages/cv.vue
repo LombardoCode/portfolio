@@ -48,9 +48,6 @@ export default {
       cv: cv_data,
       current_locale: this.$i18n.locale
     }
-  },
-  mounted() {
-    console.log(this.current_locale)
   }
 }
 </script>

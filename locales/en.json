@@ -121,7 +121,7 @@
           "title": "Website",
           "items": [
             {
-              "text": "https://www.lombardomr.dev/"
+              "text": "http://lombardomr.herokuapp.com/"
             }
           ]
         },
@@ -130,7 +130,7 @@
           "title": "Projects portfolio",
           "items": [
             {
-              "text": "https://www.lombardomr.dev/en/projects"
+              "text": "http://lombardomr.herokuapp.com/en/projects"
             },
             {
               "text": "https://www.github.com/LombardoCode/"
