@@ -56,7 +56,7 @@
       {
         "anchor_type": "external_website",
         "theme": "website",
-        "site": "http://www.shortify.atwebpages.com/",
+        "site": "http://shortify.atwebpages.com/",
         "text": "pages.projects.type.website"
       },
       {
@@ -125,7 +125,7 @@
       {
         "anchor_type": "external_website",
         "theme": "website",
-        "site": "https://www.github.com/LombardoCode/Colorless",
+        "site": "https://github.com/LombardoCode/Colorless/releases/tag/0.0.3",
         "text": "pages.projects.type.download"
       },
       {
