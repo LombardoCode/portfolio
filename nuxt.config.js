@@ -11,7 +11,8 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { name: 'theme_color', content: '#000000' },
+      { hid: 'description', name: 'description', content: "Lombardo Moreno Rodríguez personal website" },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [

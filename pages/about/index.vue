@@ -7,6 +7,7 @@
           <div class="col-span-12 lg:col-span-3 flex justify-center items-start overflow-hidden">
             <img
               src="~/assets/images/about/me.jpg"
+              alt="Lombardo Moreno Rodríguez"
               class="rounded-full mb-6 w-2/4 md:w-56"
             >
           </div>

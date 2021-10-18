@@ -15,14 +15,15 @@
         <div class="image-wrapper w-2/3 sm:w-2/4 md:w-80 sm:px-0" :class="{'lg:ml-10': project.flipped, 'lg:mr-10': !project.flipped}">
           <img
             :src="require(`~/assets/images/${project.cover}`)"
+            :alt="project.project_name"
             class="rounded-md shadow-2xl mb-6 lg:mb-0"
           >
         </div>
         <div class="project-desc-wrapper flex-1" :class="{'lg:ml-10': !project.flipped}">
-          <div id="title-and-body-wrapper" :class="project.textColor">
+          <section id="title-and-body-wrapper" :class="project.textColor">
             <H3 class="roboto-condensed font-bold leading-tight">{{ $t(project.title) }}</H3>
             <P class="roboto-condensed font-normal mb-5">{{ $t(project.body) }}</P>
-          </div>
+          </section>
           <div class="urls flex flex-wrap mb-4">
             <ReusableTag
               v-for="(url, index) in project.urls" :key="index"

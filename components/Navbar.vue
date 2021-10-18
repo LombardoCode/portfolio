@@ -8,14 +8,16 @@
             <i class="fas fa-bars text-xl"></i>
           </div>
         </div>
-        <nav class="lg:block mt-3 lg:mt-0" :class="{'hidden': !menu.mostrar}">
-          <ul class="flex flex-col lg:flex-row items-center w-full">
-            <NavbarItem location="about" lang_attr="navbar.about"/>
-            <NavbarItem location="projects" lang_attr="navbar.proyects"/>
-            <NavbarItem location="cv" text="CV"/>
-            <NavbarLanguageSelector lang_attr="navbar.language"/>
-          </ul>
-        </nav>
+        <div class="lg:flex flex-col lg:flex-row items-center" :class="{'hidden': !menu.mostrar}">
+          <nav class="mt-3 lg:mt-0">
+            <ul class="flex flex-col lg:flex-row items-center w-full">
+              <NavbarItem location="about" lang_attr="navbar.about"/>
+              <NavbarItem location="projects" lang_attr="navbar.proyects"/>
+              <NavbarItem location="cv" text="CV"/>
+            </ul>
+          </nav>
+          <NavbarLanguageSelector lang_attr="navbar.language"/>
+        </div>
       </div>
     </ReusableContainer>
   </div>
