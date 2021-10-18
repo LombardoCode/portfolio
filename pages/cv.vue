@@ -15,9 +15,9 @@
           </a>
           <div class="container mx-auto">
             <div id="cv">
-              <div id="header-cv" class="py-10 px-10 bg-blue-800 oswald uppercase bg-blue-1000 text-white text-center">
-                <p class="text-5xl mb-3 md:mb-2 leading-tight lg:leading-none">Lombardo Moreno Rodríguez</p>
-                <p class="text-3xl">{{ $t('pages.cv.heading.occupation[0].title') }}</p>
+              <div id="header-cv" class="py-10 px-10 bg-blue-800 uppercase bg-blue-1000 text-white text-center">
+                <H1 class="oswald mb-3 md:mb-2 leading-tight lg:leading-none">Lombardo Moreno Rodríguez</H1>
+                <H2 class="oswald">{{ $t('pages.cv.heading.occupation[0].title') }}</H2>
               </div>
               <div id="body-cv" class="flex flex-col lg:flex-row bg-blue-900">
                 <div id="left-side-cv" class="w-full lg:w-80 bg-gray-1100 text-white px-5 py-8">

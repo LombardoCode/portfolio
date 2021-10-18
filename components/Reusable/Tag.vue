@@ -4,7 +4,7 @@
       <a
         v-if="url.anchor_type == 'external_website'"
         :href="url.site"
-        class="block md:inline-block cursor-pointer transition-all duration-200 px-5 py-3 rounded-lg mb-2 mr-2 text-white text-lg"
+        class="block md:inline-block cursor-pointer transition-all duration-200 px-5 py-3 rounded-lg mb-2 mr-2 text-white text-base md:text-lg"
         :class="{
           'bg-blue-700 hover:bg-blue-800' : ['website'].indexOf(url.theme) > -1,
           'bg-gray-800 hover:bg-black' : ['github'].indexOf(url.theme) > -1
@@ -20,7 +20,7 @@
       </a>
       <nuxt-link
         v-if="url.anchor_type == 'nuxt_link'"
-        class="block md:inline-block cursor-pointer transition-all duration-200 px-5 py-3 rounded-lg mb-2 mr-2 text-white text-lg"
+        class="block md:inline-block cursor-pointer transition-all duration-200 px-5 py-3 rounded-lg mb-2 mr-2 text-white text-base md:text-lg"
         :class="{
           'bg-blue-700 hover:bg-blue-800' : ['website'].indexOf(url.theme) > -1,
         }"
@@ -32,7 +32,7 @@
           {{ $t(url.text) }}
       </nuxt-link>
     </div>
-    <div class="roboto-condensed font-normal mb-2" v-if="technology">
+    <div class="roboto-condensed font-normal mb-2 text-base md:text-lg" v-if="technology">
       <span
         class="inline-block cursor-pointer transition-all duration-200 px-3 py-1 rounded-md mr-2 shadow-lg"
         :class="{

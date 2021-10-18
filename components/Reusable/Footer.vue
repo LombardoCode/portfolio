@@ -5,7 +5,7 @@
     <ReusableContainer>
       <div class="flex flex-col lg:flex-row justify-between items-center">
         <div class="mb-10 lg:mb-0">
-          <ReusableLogo class="text-5xl" />
+          <ReusableLogo class="text-3xl md:text-5xl" />
         </div>
         <ul class="w-full lg:w-auto px-10 lg:px-0 flex flex-col items-center">
           <ReusableFooterItem location="index" lang_attr="navbar.about"/>

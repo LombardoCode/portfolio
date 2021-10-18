@@ -1,18 +1,18 @@
 <template>
   <div>
-    <h3 class="oswald uppercase text-4xl mb-2">{{ $t(item.title) }}</h3>
+    <H3 class="oswald uppercase">{{ $t(item.title) }}</H3>
     <div class="text-xl">
       <div class="flex items-center py-1" v-for="(sub1_item, index) in item.items" :key="index">
         <i
           :class="sub1_item.font_awesome_icon"
           class="mr-3 text-xl align-middle transform"
         ></i>
-        <p v-if="sub1_item.type === 'general'" class="word-breaker">{{ $t(sub1_item.text) }}</p>
-        <a v-if="sub1_item.type === 'email'" :href="'mailto:' + $t(sub1_item.text)" class="word-breaker">{{ $t(sub1_item.text) }}</a>
-        <a v-if="sub1_item.type === 'website'" :href="$t(sub1_item.text)" class="word-breaker">{{ $t(sub1_item.text) }}</a>
+        <P v-if="sub1_item.type === 'general'" class="word-breaker">{{ $t(sub1_item.text) }}</P>
+        <A v-if="sub1_item.type === 'email'" :href="'mailto:' + $t(sub1_item.text)" class="word-breaker">{{ $t(sub1_item.text) }}</A>
+        <A v-if="sub1_item.type === 'website'" :href="$t(sub1_item.text)" class="word-breaker">{{ $t(sub1_item.text) }}</A>
       </div>
       <div class="flex items-center py-1" v-for="(list_item, index) in item.list" :key="index">
-        <p>⬤ {{ $t(list_item) }}</p>
+        <P>⬤ {{ $t(list_item) }}</P>
       </div>
     </div>
   </div>

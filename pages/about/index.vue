@@ -11,53 +11,57 @@
             >
           </div>
           <div class="col-span-12 lg:col-span-9">
-            <h1 class="fnt_raleway text-4xl font-bold uppercase">{{ $t('pages.about.about_me') }}</h1>
+            <H1 class="fnt_raleway font-bold">{{ $t('pages.about.about_me') }}</H1>
             <div class="text-xl">
               <section class="mt-4 mb-8">
-                <h2 class="fnt_raleway text-2xl mb-1">{{ $t('pages.about.sections[0].title') }}</h2>
-                <p class="text-lg" v-html="$t('pages.about.sections[0].body.text_1', [dynamic_data.actual_age])"></p>
+                <H2 class="fnt_raleway">{{ $t('pages.about.sections[0].title') }}</H2>
+                <P v-html="$t('pages.about.sections[0].body.text_1', [dynamic_data.actual_age])"></P>
               </section>
               <section class="mt-4 mb-8">
-                <h2 class="fnt_raleway text-2xl mb-1">{{ $t('pages.about.sections[1].title') }}</h2>
-                <p class="text-lg">{{ $t('pages.about.sections[1].body.text_1') }}</p>
-                <p class="text-lg">{{ $t('pages.about.sections[1].body.text_2') }}</p>
+                <H2 class="fnt_raleway">{{ $t('pages.about.sections[1].title') }}</H2>
+                <P>{{ $t('pages.about.sections[1].body.text_1') }}</P>
+                <P>{{ $t('pages.about.sections[1].body.text_2') }}</P>
               </section>
               <section class="mt-4 mb-8">
-                <h2 class="fnt_raleway text-2xl mb-1">{{ $t('pages.about.sections[2].title') }}</h2>
-                <p class="text-lg">{{ $t('pages.about.sections[2].body.text_1', [dynamic_data.years_ive_studied_webdev]) }}</p>
-                <ul class="text-lg mt-2">
-                  <li>
+                <H2 class="fnt_raleway">{{ $t('pages.about.sections[2].title') }}</H2>
+                <P>{{ $t('pages.about.sections[2].body.text_1', [dynamic_data.years_ive_studied_webdev]) }}</P>
+                <ul class="mt-2">
+                  <LI>
                     ● {{ $t('pages.about.sections[2].list[0]') }}
-                  </li>
-                  <li>
+                  </LI>
+                  <LI>
                     ● {{ $t('pages.about.sections[2].list[1]') }}
-                  </li>
-                  <li>
+                  </LI>
+                  <LI>
                     ● {{ $t('pages.about.sections[2].list[2]') }}
-                  </li>
-                  <li>
+                  </LI>
+                  <LI>
                     ● {{ $t('pages.about.sections[2].list[3]') }}
-                  </li>
-                  <li>
+                  </LI>
+                  <LI>
                     ● {{ $t('pages.about.sections[2].list[4]') }}
-                  </li>
-                  <li>
+                  </LI>
+                  <LI>
                     ● {{ $t('pages.about.sections[2].list[5]') }}
-                  </li>
+                  </LI>
                 </ul>
               </section>
               <section class="mt-4 mb-8">
-                <h2 class="fnt_raleway text-2xl mb-1">{{ $t('pages.about.sections[3].title') }}</h2>
-                <i18n path="pages.about.sections[3].body.text_1" tag="p" class="text-lg">
-                  <template v-slot:portfolio>
-                    <nuxt-link :to="localePath('projects')" class="text-blue-600 font-bold underline">portfolio</nuxt-link>
-                  </template>
-                </i18n>
-                <i18n path="pages.about.sections[3].body.text_2" tag="p" class="text-lg">
-                  <template v-slot:cv>
-                    <nuxt-link :to="localePath('cv')" class="text-blue-600 font-bold underline">CV</nuxt-link>
-                  </template>
-                </i18n>
+                <H2 class="fnt_raleway">{{ $t('pages.about.sections[3].title') }}</H2>
+                <P>
+                  <i18n path="pages.about.sections[3].body.text_1">
+                    <template v-slot:portfolio>
+                      <nuxt-link :to="localePath('projects')" class="text-blue-600 font-bold underline">portfolio</nuxt-link>
+                    </template>
+                  </i18n>
+                </P>
+                <P>
+                  <i18n path="pages.about.sections[3].body.text_2">
+                    <template v-slot:cv>
+                      <nuxt-link :to="localePath('cv')" class="text-blue-600 font-bold underline">CV</nuxt-link>
+                    </template>
+                  </i18n>
+                </P>
               </section>
             </div>
           </div>

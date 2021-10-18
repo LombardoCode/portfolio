@@ -12,7 +12,7 @@
     <h1 class="text-white">{{ project.project }}</h1>
     <ReusableContainer :top_spacing="false">
       <div class="flex flex-col justify-between items-center" :class="{'lg:flex-row-reverse': project.flipped, 'lg:flex-row': !project.flipped}">
-        <div class="image-wrapper w-full sm:w-96 px-24 sm:px-0" :class="{'lg:ml-10': project.flipped, 'lg:mr-10': !project.flipped}">
+        <div class="image-wrapper w-2/3 sm:w-2/4 md:w-80 sm:px-0" :class="{'lg:ml-10': project.flipped, 'lg:mr-10': !project.flipped}">
           <img
             :src="require(`~/assets/images/${project.cover}`)"
             class="rounded-md shadow-2xl mb-6 lg:mb-0"
@@ -20,8 +20,8 @@
         </div>
         <div class="project-desc-wrapper flex-1" :class="{'lg:ml-10': !project.flipped}">
           <div id="title-and-body-wrapper" :class="project.textColor">
-            <h3 class="roboto-condensed font-bold text-5xl leading-tight mb-3">{{ $t(project.title) }}</h3>
-            <p class="roboto-condensed font-normal text-2xl mb-5">{{ $t(project.body) }}</p>
+            <H3 class="roboto-condensed font-bold leading-tight">{{ $t(project.title) }}</H3>
+            <P class="roboto-condensed font-normal mb-5">{{ $t(project.body) }}</P>
           </div>
           <div class="urls flex flex-wrap mb-4">
             <ReusableTag
@@ -30,7 +30,7 @@
             ></ReusableTag>
           </div>
           <div class="technologies" v-if="project.technologies">
-            <p class="roboto-condensed font-bold text-xl mb-1" :class="project.textColor">{{ $t('pages.projects.developed_on') }}</p>
+            <P class="roboto-condensed" :class="project.textColor">{{ $t('pages.projects.developed_on') }}</P>
             <div class="flex flex-wrap">
               <ReusableTag v-for="(technology, index) in project.technologies" :key="index" :technology="technology" class="text-lg"></ReusableTag>
             </div>
