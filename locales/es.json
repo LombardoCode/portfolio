@@ -121,7 +121,7 @@
           "title": "Sitio web",
           "items": [
             {
-              "text": "http://lombardomr.herokuapp.com/"
+              "text": "https://lombardomr.netlify.app/"
             }
           ]
         },
@@ -130,7 +130,7 @@
           "title": "Portfolio de proyectos",
           "items": [
             {
-              "text": "http://lombardomr.herokuapp.com/proyectos"
+              "text": "https://lombardomr.netlify.app/proyectos"
             },
             {
               "text": "https://www.github.com/LombardoCode/"

@@ -1,7 +1,7 @@
 <template>
   <div class="bg-black text-black">
     <Navbar :fixed_navbar="true" backgroundColor="bg-black"/>
-    <h1 class="titular oswald text-center text-3xl sm:text-5xl font-medium uppercase pb-28 lg:pb-24 pt-28 bg-black text-white">{{ $t('pages.projects.title') }}</h1>
+    <H1 class="titular oswald text-center font-medium pb-28 lg:pb-24 pt-28 bg-black text-white">{{ $t('pages.projects.title') }}</H1>
     <div id="projects-container" class="relative transform -translate-y-10 z-10">
       <div id="projects">
         <ReusableProjectInList

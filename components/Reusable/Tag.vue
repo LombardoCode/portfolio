@@ -4,6 +4,7 @@
       <a
         v-if="url.anchor_type == 'external_website'"
         :href="url.site"
+        target="_blank"
         class="block md:inline-block cursor-pointer transition-all duration-200 px-5 py-3 rounded-lg mb-2 mr-2 text-white text-base md:text-lg"
         :class="{
           'bg-blue-700 hover:bg-blue-800' : ['website'].indexOf(url.theme) > -1,

@@ -10,7 +10,7 @@
       {
         "anchor_type": "external_website",
         "theme": "website",
-        "site": "https://job-listings-with-filtering.herokuapp.com/",
+        "site": "https://job-listings-with-filtering.netlify.app/",
         "text": "pages.projects.type.website"
       },
       {

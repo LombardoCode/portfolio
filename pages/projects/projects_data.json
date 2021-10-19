@@ -10,7 +10,7 @@
       {
         "anchor_type": "external_website",
         "theme": "website",
-        "site": "http://lombardomr.herokuapp.com/",
+        "site": "https://lombardomr.netlify.app/",
         "text": "pages.projects.type.website"
       },
       {
