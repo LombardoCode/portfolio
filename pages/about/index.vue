@@ -52,7 +52,7 @@
                 <P>
                   <i18n path="pages.about.sections[3].body.text_1">
                     <template v-slot:portfolio>
-                      <nuxt-link :to="localePath('projects')" class="text-blue-600 font-bold underline">portfolio</nuxt-link>
+                      <nuxt-link :to="localePath('projects')" class="text-blue-600 font-bold underline">{{ $t('FUW.portfolio') }}</nuxt-link>
                     </template>
                   </i18n>
                 </P>

@@ -1,4 +1,7 @@
 {
+  "FUW": {
+    "portfolio": "portafolio"
+  },
   "navbar": {
     "about": "Sobre mi",
     "proyects": "Proyectos",
@@ -43,7 +46,7 @@
           ]
         },
         {
-          "title": "Portfolio y datos de contacto",
+          "title": "Portafolio y datos de contacto",
           "body": {
             "text_1": "Dentro de mi {portfolio} podrá explorar los proyectos que he realizado.",
             "text_2": "Puede comunicarse conmigo a través de los medios de contacto que puede encontrar en mi {cv}."
@@ -61,7 +64,7 @@
       },
       "projects_section": {
         "portfolio": {
-          "title": "Portfolio",
+          "title": "Portafolio",
           "body": "Sitio web donde incluyo mi información y proyectos que he realizado."
         },
         "devsoverflow": {
@@ -127,7 +130,7 @@
         },
 
         {
-          "title": "Portfolio de proyectos",
+          "title": "Portafolio de proyectos",
           "items": [
             {
               "text": "https://lombardomr.netlify.app/proyectos"
