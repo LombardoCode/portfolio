@@ -46,8 +46,31 @@
     "technologies": ["HTML", "CSS", "JavaScript", "Vue.js", "Laravel", "TailwindCSS"]
   },
   {
-    "project_name": "shortify",
+    "project_name": "musicnow",
     "flipped": false,
+    "title": "pages.projects.projects_section.musicnow.title",
+    "body": "pages.projects.projects_section.musicnow.body",
+    "cover": "projects/musicnow/cover.jpg",
+    "textColor": "text-white",
+    "urls": [
+      {
+        "anchor_type": "external_website",
+        "theme": "website",
+        "site": "https://music-now.netlify.app/",
+        "text": "pages.projects.type.website"
+      },
+      {
+        "anchor_type": "external_website",
+        "theme": "github",
+        "site": "https://www.github.com/LombardoCode/MusicNow",
+        "text": "pages.projects.type.github"
+      }
+    ],
+    "technologies": ["HTML", "CSS", "JavaScript", "Vue.js", "TailwindCSS"]
+  },
+  {
+    "project_name": "shortify",
+    "flipped": true,
     "title": "pages.projects.projects_section.shortify.title",
     "body": "pages.projects.projects_section.shortify.body",
     "cover": "projects/shortify/cover.jpg",
@@ -70,7 +93,7 @@
   },
   {
     "project_name": "openchat",
-    "flipped": true,
+    "flipped": false,
     "title": "pages.projects.projects_section.openchat.title",
     "body": "pages.projects.projects_section.openchat.body",
     "cover": "projects/openchat/cover.jpg",
@@ -93,7 +116,7 @@
   },
   {
     "project_name": "dilombardo",
-    "flipped": false,
+    "flipped": true,
     "title": "pages.projects.projects_section.dilombardo.title",
     "body": "pages.projects.projects_section.dilombardo.body",
     "cover": "projects/dilombardo/cover.jpg",
@@ -116,7 +139,7 @@
   },
   {
     "project_name": "colorless",
-    "flipped": true,
+    "flipped": false,
     "title": "pages.projects.projects_section.colorless.title",
     "body": "pages.projects.projects_section.colorless.body",
     "cover": "projects/colorless/cover.jpg",
@@ -139,7 +162,7 @@
   },
   {
     "project_name": "frontend_challenges",
-    "flipped": false,
+    "flipped": true,
     "title": "pages.projects.projects_section.frontend_challenges.title",
     "body": "pages.projects.projects_section.frontend_challenges.body",
     "cover": "projects/frontend/cover.jpg",

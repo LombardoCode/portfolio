@@ -71,6 +71,10 @@
           "title": "DevsOverflow",
           "body": "DevsOverflow it's a Q&A website for programmers and people in the IT industry."
         },
+        "musicnow": {
+          "title": "MusicNow",
+          "body": "MusicNow is a Music Player that uses Deezer's API."
+        },
         "shortify": {
           "title": "shortify",
           "body": "Shortify is a URL shortener, making URLs friendlier and sharable."

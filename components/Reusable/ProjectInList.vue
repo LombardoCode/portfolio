@@ -2,6 +2,7 @@
   <div class="project-content px-4 md:px-16 lg:px-16 xl:px-0 py-24 lg:py-28 transform -translate-y-10 -mb-22 lg:-mb-14" :class="{
     'bg-project-portfolio': project.project_name == 'portfolio',
     'bg-white': project.project_name == 'devsoverflow',
+    'bg-black': project.project_name == 'musicnow',
     'bg-project-shortify': project.project_name == 'shortify',
     'bg-gray-300': project.project_name == 'openchat',
     'bg-black': project.project_name == 'dilombardo',

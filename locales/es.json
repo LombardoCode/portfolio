@@ -71,6 +71,10 @@
           "title": "DevsOverflow",
           "body": "DevsOverflow es un sitio de preguntas y respuestas dirigido exclusivamente para programadores y aficionados al mundo de TI."
         },
+        "musicnow": {
+          "title": "MusicNow",
+          "body": "MusicNow es un reproductor de música que utiliza la API de Deezer."
+        },
         "shortify": {
           "title": "shortify",
           "body": "Shortify es un acortador de URLs, permitiendo hacer las URLs más amigables y más compartibles."
