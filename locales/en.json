@@ -75,6 +75,10 @@
           "title": "MusicNow",
           "body": "MusicNow is a Music Player that uses Deezer's API."
         },
+        "pomodoro": {
+          "title": "pomodoro",
+          "body": "pomodoro is a timer where you can customize for your tasks and breaks."
+        },
         "shortify": {
           "title": "shortify",
           "body": "Shortify is a URL shortener, making URLs friendlier and sharable."
@@ -173,9 +177,7 @@
               "heading_1": "Collaborator",
               "location": "C. Julián Villagrán 116, Centro, 64000 Monterrey, N.L. — TEL (81) - 83 44 43 00",
               "heading_2": "Zihuame Mochilla | SEP 2018 - MAR 2019",
-              "heading_3": [
-                "- Collect material for social projects"
-              ]
+              "heading_3": ["- Collect material for social projects"]
             }
           ]
         },
@@ -210,10 +212,7 @@
 
         {
           "title": "Languages",
-          "list": [
-            "Spanish (Native)",
-            "English (Advanced)"
-          ]
+          "list": ["Spanish (Native)", "English (Advanced)"]
         },
 
         {

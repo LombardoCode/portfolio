@@ -20,7 +20,14 @@
         "text": "pages.projects.type.github"
       }
     ],
-    "technologies": ["HTML", "CSS", "JavaScript", "Vue.js (Nuxt.js)", "TailwindCSS", "SASS"]
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Vue.js (Nuxt.js)",
+      "TailwindCSS",
+      "SASS"
+    ]
   },
   {
     "project_name": "devsoverflow",
@@ -43,7 +50,14 @@
         "text": "pages.projects.type.github"
       }
     ],
-    "technologies": ["HTML", "CSS", "JavaScript", "Vue.js", "Laravel", "TailwindCSS"]
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Vue.js",
+      "Laravel",
+      "TailwindCSS"
+    ]
   },
   {
     "project_name": "musicnow",
@@ -69,8 +83,31 @@
     "technologies": ["HTML", "CSS", "JavaScript", "Vue.js", "TailwindCSS"]
   },
   {
-    "project_name": "shortify",
+    "project_name": "pomodoro",
     "flipped": true,
+    "title": "pages.projects.projects_section.pomodoro.title",
+    "body": "pages.projects.projects_section.pomodoro.body",
+    "cover": "projects/pomodoro/cover.jpg",
+    "textColor": "text-white",
+    "urls": [
+      {
+        "anchor_type": "external_website",
+        "theme": "website",
+        "site": "https://pomodoro-lmr.netlify.app/",
+        "text": "pages.projects.type.website"
+      },
+      {
+        "anchor_type": "external_website",
+        "theme": "github",
+        "site": "https://github.com/LombardoCode/pomodoro-web",
+        "text": "pages.projects.type.github"
+      }
+    ],
+    "technologies": ["HTML", "CSS", "JavaScript", "React.js", "TailwindCSS"]
+  },
+  {
+    "project_name": "shortify",
+    "flipped": false,
     "title": "pages.projects.projects_section.shortify.title",
     "body": "pages.projects.projects_section.shortify.body",
     "cover": "projects/shortify/cover.jpg",
@@ -89,11 +126,18 @@
         "text": "pages.projects.type.github"
       }
     ],
-    "technologies": ["HTML", "CSS", "JavaScript", "Vue.js", "Laravel", "TailwindCSS"]
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Vue.js",
+      "Laravel",
+      "TailwindCSS"
+    ]
   },
   {
     "project_name": "openchat",
-    "flipped": false,
+    "flipped": true,
     "title": "pages.projects.projects_section.openchat.title",
     "body": "pages.projects.projects_section.openchat.body",
     "cover": "projects/openchat/cover.jpg",
@@ -112,11 +156,19 @@
         "text": "pages.projects.type.github"
       }
     ],
-    "technologies": ["HTML", "CSS", "JavaScript", "React.js", "Laravel", "BootstrapCSS", "Pusher"]
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React.js",
+      "Laravel",
+      "BootstrapCSS",
+      "Pusher"
+    ]
   },
   {
     "project_name": "dilombardo",
-    "flipped": true,
+    "flipped": false,
     "title": "pages.projects.projects_section.dilombardo.title",
     "body": "pages.projects.projects_section.dilombardo.body",
     "cover": "projects/dilombardo/cover.jpg",
@@ -139,7 +191,7 @@
   },
   {
     "project_name": "colorless",
-    "flipped": false,
+    "flipped": true,
     "title": "pages.projects.projects_section.colorless.title",
     "body": "pages.projects.projects_section.colorless.body",
     "cover": "projects/colorless/cover.jpg",
@@ -162,7 +214,7 @@
   },
   {
     "project_name": "frontend_challenges",
-    "flipped": true,
+    "flipped": false,
     "title": "pages.projects.projects_section.frontend_challenges.title",
     "body": "pages.projects.projects_section.frontend_challenges.body",
     "cover": "projects/frontend/cover.jpg",
