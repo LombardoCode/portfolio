@@ -4,14 +4,20 @@
       "title": "pages.cv.left_side[0].title",
       "items": [
         {
+          "type": "website",
+          "font_awesome_icon": "fa-brands fa-linkedin",
+          "text": "pages.cv.left_side[0].items[0].text",
+          "website": "https://www.linkedin.com/in/lombardo-m-bba399218/"
+        },
+        {
           "type": "general",
           "font_awesome_icon": "fas fa-phone-alt rotate-90",
-          "text": "pages.cv.left_side[0].items[0].text"
+          "text": "pages.cv.left_side[0].items[1].text"
         },
         {
           "type": "email",
           "font_awesome_icon": "fas fa-envelope",
-          "text": "pages.cv.left_side[0].items[1].text"
+          "text": "pages.cv.left_side[0].items[2].text"
         }
       ]
     },
@@ -22,7 +28,8 @@
         {
           "type": "website",
           "font_awesome_icon": "fas fa-globe",
-          "text": "pages.cv.left_side[1].items[0].text"
+          "text": "pages.cv.left_side[1].items[0].text",
+          "website": "https://lombardomr.netlify.app/en"
         }
       ]
     },
@@ -33,13 +40,15 @@
         {
           "type": "website",
           "font_awesome_icon": "fas fa-globe",
-          "text": "pages.cv.left_side[2].items[0].text"
+          "text": "pages.cv.left_side[2].items[0].text",
+          "website": "https://lombardomr.netlify.app/en/projects"
         },
 
         {
           "type": "website",
           "font_awesome_icon": "fab fa-github",
-          "text": "pages.cv.left_side[2].items[1].text"
+          "text": "pages.cv.left_side[2].items[1].text",
+          "website": "https://www.github.com/LombardoCode/"
         }
       ]
     },
@@ -61,21 +70,20 @@
       "font_awesome_icon": "fas fa-suitcase",
       "sub_items": [
         {
+          "img": "/images/cv/work_experience/lombardomr.png",
           "heading_1": "pages.cv.right_side[0].sub_items[0].heading_1",
           "heading_2": "pages.cv.right_side[0].sub_items[0].heading_2",
-          "location": "pages.cv.right_side[0].sub_items[0].location",
-          "heading_3": [
-            "pages.cv.right_side[0].sub_items[0].heading_3[0]",
-            "pages.cv.right_side[0].sub_items[0].heading_3[1]"
-          ]
+          "website": {
+            "text": "FUW.CV.rightSide.portfolio",
+            "url": "https://lombardomr.netlify.app/en/projects"
+          }
         },
         {
+          "img": "/images/cv/work_experience/ZihuameMochilla.png",
           "heading_1": "pages.cv.right_side[0].sub_items[1].heading_1",
           "heading_2": "pages.cv.right_side[0].sub_items[1].heading_2",
           "location": "pages.cv.right_side[0].sub_items[1].location",
-          "heading_3": [
-            "pages.cv.right_side[0].sub_items[1].heading_3[0]"
-          ]
+          "heading_3": ["pages.cv.right_side[0].sub_items[1].heading_3[0]"]
         }
       ]
     },
@@ -85,14 +93,25 @@
       "font_awesome_icon": "fas fa-graduation-cap",
       "sub_items": [
         {
+          "img": "/images/cv/education/Platzi.png",
           "heading_1": "pages.cv.right_side[1].sub_items[0].heading_1",
           "heading_2": "pages.cv.right_side[1].sub_items[0].heading_2",
-          "location": "pages.cv.right_side[1].sub_items[0].location"
+          "website": {
+            "text": "FUW.CV.rightSide.platzi",
+            "url": "https://platzi.com/p/Lombardo/"
+          }
         },
         {
+          "img": "/images/cv/education/Universidad_TecMilenio.png",
           "heading_1": "pages.cv.right_side[1].sub_items[1].heading_1",
           "heading_2": "pages.cv.right_side[1].sub_items[1].heading_2",
           "location": "pages.cv.right_side[1].sub_items[1].location"
+        },
+        {
+          "img": "/images/cv/education/QuickLearning.png",
+          "heading_1": "pages.cv.right_side[1].sub_items[2].heading_1",
+          "heading_2": "pages.cv.right_side[1].sub_items[2].heading_2",
+          "location": "pages.cv.right_side[1].sub_items[2].location"
         }
       ]
     },
@@ -124,8 +143,13 @@
       "font_awesome_icon": "fas fa-award",
       "sub_items": [
         {
+          "img": "/images/cv/education/QuickLearning.png",
           "heading_1": "pages.cv.right_side[4].sub_items[0].heading_1",
-          "heading_2": "pages.cv.right_side[4].sub_items[0].heading_2"
+          "heading_2": "pages.cv.right_side[4].sub_items[0].heading_2",
+          "website": {
+            "text": "FUW.CV.rightSide.certificate",
+            "url": "/archives/diplomas/quick-learning-diploma.jpg"
+          }
         }
       ]
     }

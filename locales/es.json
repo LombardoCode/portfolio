@@ -1,6 +1,13 @@
 {
   "FUW": {
-    "portfolio": "portafolio"
+    "portfolio": "portafolio",
+    "CV": {
+      "rightSide": {
+        "portfolio": "Visitar portafolio",
+        "platzi": "Visitar perfil de Platzi",
+        "certificate": "Ver certificado"
+      }
+    }
   },
   "navbar": {
     "about": "Sobre mi",
@@ -120,7 +127,10 @@
           "title": "Contacto",
           "items": [
             {
-              "text": "811-906-1750"
+              "text": "LinkedIn"
+            },
+            {
+              "text": "(+52) 811-906-1750"
             },
             {
               "text": "LombardoBusiness@gmail.com"
@@ -132,19 +142,22 @@
           "title": "Sitio web",
           "items": [
             {
-              "text": "https://lombardomr.netlify.app/"
+              "text": "https://lombardomr.netlify.app/",
+              "website": "https://lombardomr.netlify.app/"
             }
           ]
         },
 
         {
-          "title": "Portafolio de proyectos",
+          "title": "Portafolio",
           "items": [
             {
-              "text": "https://lombardomr.netlify.app/proyectos"
+              "text": "https://lombardomr.netlify.app/proyectos",
+              "website": "https://lombardomr.netlify.app/proyectos"
             },
             {
-              "text": "https://www.github.com/LombardoCode/"
+              "text": "https://www.github.com/LombardoCode/",
+              "website": "https://www.github.com/LombardoCode/"
             }
           ]
         },
@@ -165,19 +178,14 @@
           "title": "Experiencia laboral",
           "sub_items": [
             {
-              "heading_1": "Ayudante general",
-              "heading_2": "Servicio Moreno Car Wash | FEB 2014 - ACT",
-              "location": "Av. Pablo Livas 7020, Santa María, 67190 Guadalupe, N.L. — TEL (81) - 83 93 39 99",
-              "heading_3": [
-                "- Recibir material de proveedores",
-                "- Lavado, engrasado y limpieza interna de los vehículos"
-              ]
+              "heading_1": "Portfolio",
+              "heading_2": "Sitio web personal (9 proyectos)"
             },
             {
-              "heading_1": "Colaborador",
+              "heading_1": "Colaborador (Servicio social)",
               "heading_2": "Zihuame Mochilla | SEP 2018 - MAR 2019",
               "location": "C. Julián Villagrán 116, Centro, 64000 Monterrey, N.L. — TEL (81) - 83 44 43 00",
-              "heading_3": ["- Recaudación de material para proyectos sociales"]
+              "heading_3": ["• Recaudación de material para proyectos sociales"]
             }
           ]
         },
@@ -185,6 +193,10 @@
         {
           "title": "Educación",
           "sub_items": [
+            {
+              "heading_1": "Platzi | ACT.",
+              "heading_2": "Plataforma de educación online de tecnología"
+            },
             {
               "heading_1": "Universidad TecMilenio | AGO 2017 - JUN 2021.",
               "heading_2": "Ingeniería en Computación Administrativa",

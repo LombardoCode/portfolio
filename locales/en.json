@@ -1,6 +1,13 @@
 {
   "FUW": {
-    "portfolio": "portfolio"
+    "portfolio": "Portfolio",
+    "CV": {
+      "rightSide": {
+        "portfolio": "Visit portfolio",
+        "platzi": "Visit Platzi profile",
+        "certificate": "See certificate"
+      }
+    }
   },
   "navbar": {
     "about": "About me",
@@ -120,7 +127,11 @@
           "title": "Contact",
           "items": [
             {
-              "text": "811-906-1750"
+              "text": "LinkedIn",
+              "website": "https://www.linkedin.com/in/lombardo-m-bba399218/"
+            },
+            {
+              "text": "(+52) 811-906-1750"
             },
             {
               "text": "LombardoBusiness@gmail.com"
@@ -132,19 +143,22 @@
           "title": "Website",
           "items": [
             {
-              "text": "https://lombardomr.netlify.app/"
+              "text": "https://lombardomr.netlify.app/en",
+              "website": "https://lombardomr.netlify.app/en"
             }
           ]
         },
 
         {
-          "title": "Projects portfolio",
+          "title": "Portfolio",
           "items": [
             {
-              "text": "https://lombardomr.netlify.app/en/projects"
+              "text": "https://lombardomr.netlify.app/en/projects",
+              "website": "https://lombardomr.netlify.app/en/projects"
             },
             {
-              "text": "https://www.github.com/LombardoCode/"
+              "text": "https://www.github.com/LombardoCode/",
+              "website": "https://www.github.com/LombardoCode/"
             }
           ]
         },
@@ -165,19 +179,14 @@
           "title": "Work experience",
           "sub_items": [
             {
-              "heading_1": "General assistant",
-              "heading_2": "Servicio Moreno Car Wash | FEB 2014 - ACT",
-              "location": "Av. Pablo Livas 7020, Santa María, 67190 Guadalupe, N.L. — TEL (81) - 83 93 39 99",
-              "heading_3": [
-                "- Receive material from suppliers",
-                "- Washing, oiling and interior-cleaning of the vehicles"
-              ]
+              "heading_1": "Portfolio",
+              "heading_2": "Personal website (9 projects)"
             },
             {
-              "heading_1": "Collaborator",
+              "heading_1": "Collaborator (Social service)",
               "location": "C. Julián Villagrán 116, Centro, 64000 Monterrey, N.L. — TEL (81) - 83 44 43 00",
               "heading_2": "Zihuame Mochilla | SEP 2018 - MAR 2019",
-              "heading_3": ["- Collect material for social projects"]
+              "heading_3": ["• Material collection for social projects"]
             }
           ]
         },
@@ -185,6 +194,10 @@
         {
           "title": "Education",
           "sub_items": [
+            {
+              "heading_1": "Platzi | ACT.",
+              "heading_2": "Online technology education plataform"
+            },
             {
               "heading_1": "Universidad TecMilenio | AUG 2017 - JUN 2021.",
               "heading_2": "Administrative Computation Engineering",
@@ -216,7 +229,7 @@
         },
 
         {
-          "title": "Awards",
+          "title": "Acknowledgements",
           "sub_items": [
             {
               "heading_1": "Certification of excellence",
