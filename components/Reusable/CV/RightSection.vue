@@ -36,6 +36,7 @@
                 styles: {
                   textColor: 'blue',
                   underlineText: true,
+                  bold: true,
                 },
               }"
               class="pl-6 font-normal roboto mb-1"

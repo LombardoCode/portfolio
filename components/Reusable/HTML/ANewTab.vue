@@ -7,6 +7,7 @@
       'text-white': link.styles.textColor === 'white',
       'text-blue-600': link.styles.textColor === 'blue',
       underline: link.styles.underlineText,
+      'font-bold': link.styles.bold,
     }"
     target="_blank"
   >
@@ -36,6 +37,10 @@ export default {
           textColor: {
             type: String,
             default: "blue",
+          },
+          bold: {
+            type: Boolean,
+            default: false,
           },
         },
       },

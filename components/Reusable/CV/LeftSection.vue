@@ -29,6 +29,7 @@
             styles: {
               textColor: 'white',
               underlineText: true,
+              bold: false,
             },
           }"
           class="word-breaker"
