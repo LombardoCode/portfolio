@@ -1,7 +1,7 @@
 import es from '../locales/es.json'
 import en from '../locales/en.json'
 export default {
-  defaultLocale: 'es',
-  fallbackLocale: 'es',
+  defaultLocale: 'en',
+  fallbackLocale: 'en',
   messages: { es, en }
 }

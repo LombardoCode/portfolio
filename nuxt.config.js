@@ -70,7 +70,7 @@ export default {
       cookieKey: 'i18n_redirected',
       redirectOn: 'root',  // recommended
     },
-    defaultLocale: 'es',
+    defaultLocale: 'en',
     locales: [
       {
          code: 'es',
