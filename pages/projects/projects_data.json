@@ -10,7 +10,7 @@
       {
         "anchor_type": "external_website",
         "theme": "website",
-        "site": "https://lombardomr.netlify.app/",
+        "site": "https://lomoro.dev/",
         "text": "pages.projects.type.website"
       },
       {
@@ -40,7 +40,7 @@
       {
         "anchor_type": "external_website",
         "theme": "website",
-        "site": "http://devsoverflow.atwebpages.com/",
+        "site": "https://devsoverflow.lomoro.dev/",
         "text": "pages.projects.type.website"
       },
       {
@@ -70,7 +70,7 @@
       {
         "anchor_type": "external_website",
         "theme": "website",
-        "site": "https://music-now.netlify.app/",
+        "site": "https://musicnow.lomoro.dev/",
         "text": "pages.projects.type.website"
       },
       {
@@ -93,7 +93,7 @@
       {
         "anchor_type": "external_website",
         "theme": "website",
-        "site": "https://pomodoro-lmr.netlify.app/",
+        "site": "https://pomodoro.lomoro.dev/",
         "text": "pages.projects.type.website"
       },
       {
@@ -116,7 +116,7 @@
       {
         "anchor_type": "external_website",
         "theme": "website",
-        "site": "http://shortify.atwebpages.com/",
+        "site": "https://shortify.lomoro.dev/",
         "text": "pages.projects.type.website"
       },
       {
@@ -146,7 +146,7 @@
       {
         "anchor_type": "external_website",
         "theme": "website",
-        "site": "http://www.openchat.epizy.com/",
+        "site": "https://openchat.lomoro.dev/",
         "text": "pages.projects.type.website"
       },
       {
@@ -177,7 +177,7 @@
       {
         "anchor_type": "external_website",
         "theme": "website",
-        "site": "https://dilombardo.herokuapp.com/",
+        "site": "https://dilombardo.lomoro.dev/",
         "text": "pages.projects.type.website"
       },
       {

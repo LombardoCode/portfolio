@@ -128,7 +128,7 @@
           "items": [
             {
               "text": "LinkedIn",
-              "website": "https://www.linkedin.com/in/lombardo-m-bba399218/"
+              "website": "https://www.linkedin.com/in/lomoro/"
             },
             {
               "text": "(+52) 811-906-1750"
@@ -143,8 +143,8 @@
           "title": "Website",
           "items": [
             {
-              "text": "https://lombardomr.netlify.app/en",
-              "website": "https://lombardomr.netlify.app/en"
+              "text": "https://lomoro.dev/en",
+              "website": "https://lomoro.dev/en"
             }
           ]
         },
@@ -153,8 +153,8 @@
           "title": "Portfolio",
           "items": [
             {
-              "text": "https://lombardomr.netlify.app/en/projects",
-              "website": "https://lombardomr.netlify.app/en/projects"
+              "text": "https://lomoro.dev/en/projects",
+              "website": "https://lomoro.dev/en/projects"
             },
             {
               "text": "https://www.github.com/LombardoCode/",

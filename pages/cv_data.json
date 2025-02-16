@@ -7,7 +7,7 @@
           "type": "website",
           "font_awesome_icon": "fa-brands fa-linkedin",
           "text": "pages.cv.left_side[0].items[0].text",
-          "website": "https://www.linkedin.com/in/lombardo-m-bba399218/"
+          "website": "https://www.linkedin.com/in/lomoro/"
         },
         {
           "type": "general",
@@ -29,7 +29,7 @@
           "type": "website",
           "font_awesome_icon": "fas fa-globe",
           "text": "pages.cv.left_side[1].items[0].text",
-          "website": "https://lombardomr.netlify.app/en"
+          "website": "https://lomoro.dev/en"
         }
       ]
     },
@@ -41,7 +41,7 @@
           "type": "website",
           "font_awesome_icon": "fas fa-globe",
           "text": "pages.cv.left_side[2].items[0].text",
-          "website": "https://lombardomr.netlify.app/en/projects"
+          "website": "https://lomoro.dev/en/projects"
         },
 
         {
@@ -70,12 +70,12 @@
       "font_awesome_icon": "fas fa-suitcase",
       "sub_items": [
         {
-          "img": "/images/cv/work_experience/lombardomr.png",
+          "img": "/images/cv/work_experience/lomoro.png",
           "heading_1": "pages.cv.right_side[0].sub_items[0].heading_1",
           "heading_2": "pages.cv.right_side[0].sub_items[0].heading_2",
           "website": {
             "text": "FUW.CV.rightSide.portfolio",
-            "url": "https://lombardomr.netlify.app/en/projects"
+            "url": "https://lomoro.dev/en/projects"
           }
         },
         {

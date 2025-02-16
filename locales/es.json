@@ -127,7 +127,8 @@
           "title": "Contacto",
           "items": [
             {
-              "text": "LinkedIn"
+              "text": "LinkedIn",
+              "website": "https://www.linkedin.com/in/lomoro/"
             },
             {
               "text": "(+52) 811-906-1750"
@@ -142,8 +143,8 @@
           "title": "Sitio web",
           "items": [
             {
-              "text": "https://lombardomr.netlify.app/",
-              "website": "https://lombardomr.netlify.app/"
+              "text": "https://lomoro.dev/",
+              "website": "https://lomoro.dev/"
             }
           ]
         },
@@ -152,8 +153,8 @@
           "title": "Portafolio",
           "items": [
             {
-              "text": "https://lombardomr.netlify.app/proyectos",
-              "website": "https://lombardomr.netlify.app/proyectos"
+              "text": "https://lomoro.dev/proyectos",
+              "website": "https://lomoro.dev/proyectos"
             },
             {
               "text": "https://www.github.com/LombardoCode/",
